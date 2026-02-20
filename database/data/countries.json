@@ -1,0 +1,3163 @@
+[
+    {
+        "id": 1,
+        "name": "Aruba",
+        "official_name": "Aruba",
+        "iso_code": "AW",
+        "iso_code_3": "ABW",
+        "language_id": 1,
+        "available_languages": [
+            1,
+            2
+        ],
+        "currency_id": 1
+    },
+    {
+        "id": 2,
+        "name": "Afghanistan",
+        "official_name": "Islamic Republic of Afghanistan",
+        "iso_code": "AF",
+        "iso_code_3": "AFG",
+        "language_id": 3,
+        "available_languages": [
+            3,
+            4,
+            5
+        ],
+        "currency_id": 2
+    },
+    {
+        "id": 3,
+        "name": "Angola",
+        "official_name": "Republic of Angola",
+        "iso_code": "AO",
+        "iso_code_3": "AGO",
+        "language_id": 6,
+        "available_languages": [
+            6
+        ],
+        "currency_id": 3
+    },
+    {
+        "id": 4,
+        "name": "Anguilla",
+        "official_name": "Anguilla",
+        "iso_code": "AI",
+        "iso_code_3": "AIA",
+        "language_id": 7,
+        "available_languages": [
+            7
+        ],
+        "currency_id": 4
+    },
+    {
+        "id": 5,
+        "name": "Åland Islands",
+        "official_name": "Åland Islands",
+        "iso_code": "AX",
+        "iso_code_3": "ALA",
+        "language_id": 8,
+        "available_languages": [
+            8
+        ],
+        "currency_id": 5
+    },
+    {
+        "id": 6,
+        "name": "Albania",
+        "official_name": "Republic of Albania",
+        "iso_code": "AL",
+        "iso_code_3": "ALB",
+        "language_id": 9,
+        "available_languages": [
+            9
+        ],
+        "currency_id": 6
+    },
+    {
+        "id": 7,
+        "name": "Andorra",
+        "official_name": "Principality of Andorra",
+        "iso_code": "AD",
+        "iso_code_3": "AND",
+        "language_id": 10,
+        "available_languages": [
+            10
+        ],
+        "currency_id": 5
+    },
+    {
+        "id": 8,
+        "name": "United Arab Emirates",
+        "official_name": "United Arab Emirates",
+        "iso_code": "AE",
+        "iso_code_3": "ARE",
+        "language_id": 11,
+        "available_languages": [
+            11
+        ],
+        "currency_id": 7
+    },
+    {
+        "id": 9,
+        "name": "Argentina",
+        "official_name": "Argentine Republic",
+        "iso_code": "AR",
+        "iso_code_3": "ARG",
+        "language_id": 12,
+        "available_languages": [
+            12,
+            13
+        ],
+        "currency_id": 8
+    },
+    {
+        "id": 10,
+        "name": "Armenia",
+        "official_name": "Republic of Armenia",
+        "iso_code": "AM",
+        "iso_code_3": "ARM",
+        "language_id": 14,
+        "available_languages": [
+            14
+        ],
+        "currency_id": 9
+    },
+    {
+        "id": 11,
+        "name": "American Samoa",
+        "official_name": "American Samoa",
+        "iso_code": "AS",
+        "iso_code_3": "ASM",
+        "language_id": 7,
+        "available_languages": [
+            7,
+            15
+        ],
+        "currency_id": 10
+    },
+    {
+        "id": 12,
+        "name": "Antarctica",
+        "official_name": "Antarctica",
+        "iso_code": "AQ",
+        "iso_code_3": "ATA",
+        "language_id": null,
+        "available_languages": [],
+        "currency_id": null
+    },
+    {
+        "id": 13,
+        "name": "French Southern and Antarctic Lands",
+        "official_name": "Territory of the French Southern and Antarctic Lands",
+        "iso_code": "TF",
+        "iso_code_3": "ATF",
+        "language_id": 16,
+        "available_languages": [
+            16
+        ],
+        "currency_id": 5
+    },
+    {
+        "id": 14,
+        "name": "Antigua and Barbuda",
+        "official_name": "Antigua and Barbuda",
+        "iso_code": "AG",
+        "iso_code_3": "ATG",
+        "language_id": 7,
+        "available_languages": [
+            7
+        ],
+        "currency_id": 4
+    },
+    {
+        "id": 15,
+        "name": "Australia",
+        "official_name": "Commonwealth of Australia",
+        "iso_code": "AU",
+        "iso_code_3": "AUS",
+        "language_id": 7,
+        "available_languages": [
+            7
+        ],
+        "currency_id": 11
+    },
+    {
+        "id": 16,
+        "name": "Austria",
+        "official_name": "Republic of Austria",
+        "iso_code": "AT",
+        "iso_code_3": "AUT",
+        "language_id": 17,
+        "available_languages": [
+            17
+        ],
+        "currency_id": 5
+    },
+    {
+        "id": 17,
+        "name": "Azerbaijan",
+        "official_name": "Republic of Azerbaijan",
+        "iso_code": "AZ",
+        "iso_code_3": "AZE",
+        "language_id": 18,
+        "available_languages": [
+            18,
+            19
+        ],
+        "currency_id": 12
+    },
+    {
+        "id": 18,
+        "name": "Burundi",
+        "official_name": "Republic of Burundi",
+        "iso_code": "BI",
+        "iso_code_3": "BDI",
+        "language_id": 16,
+        "available_languages": [
+            16,
+            20
+        ],
+        "currency_id": 13
+    },
+    {
+        "id": 19,
+        "name": "Belgium",
+        "official_name": "Kingdom of Belgium",
+        "iso_code": "BE",
+        "iso_code_3": "BEL",
+        "language_id": 21,
+        "available_languages": [
+            21,
+            16,
+            1
+        ],
+        "currency_id": 5
+    },
+    {
+        "id": 20,
+        "name": "Benin",
+        "official_name": "Republic of Benin",
+        "iso_code": "BJ",
+        "iso_code_3": "BEN",
+        "language_id": 16,
+        "available_languages": [
+            16
+        ],
+        "currency_id": 14
+    },
+    {
+        "id": 21,
+        "name": "Burkina Faso",
+        "official_name": "Burkina Faso",
+        "iso_code": "BF",
+        "iso_code_3": "BFA",
+        "language_id": 16,
+        "available_languages": [
+            16
+        ],
+        "currency_id": 14
+    },
+    {
+        "id": 22,
+        "name": "Bangladesh",
+        "official_name": "People's Republic of Bangladesh",
+        "iso_code": "BD",
+        "iso_code_3": "BGD",
+        "language_id": 22,
+        "available_languages": [
+            22
+        ],
+        "currency_id": 15
+    },
+    {
+        "id": 23,
+        "name": "Bulgaria",
+        "official_name": "Republic of Bulgaria",
+        "iso_code": "BG",
+        "iso_code_3": "BGR",
+        "language_id": 23,
+        "available_languages": [
+            23
+        ],
+        "currency_id": 16
+    },
+    {
+        "id": 24,
+        "name": "Bahrain",
+        "official_name": "Kingdom of Bahrain",
+        "iso_code": "BH",
+        "iso_code_3": "BHR",
+        "language_id": 11,
+        "available_languages": [
+            11
+        ],
+        "currency_id": 17
+    },
+    {
+        "id": 25,
+        "name": "Bahamas",
+        "official_name": "Commonwealth of the Bahamas",
+        "iso_code": "BS",
+        "iso_code_3": "BHS",
+        "language_id": 7,
+        "available_languages": [
+            7
+        ],
+        "currency_id": 18
+    },
+    {
+        "id": 26,
+        "name": "Bosnia and Herzegovina",
+        "official_name": "Bosnia and Herzegovina",
+        "iso_code": "BA",
+        "iso_code_3": "BIH",
+        "language_id": 24,
+        "available_languages": [
+            24,
+            25,
+            26
+        ],
+        "currency_id": 19
+    },
+    {
+        "id": 27,
+        "name": "Saint Barthélemy",
+        "official_name": "Collectivity of Saint Barthélemy",
+        "iso_code": "BL",
+        "iso_code_3": "BLM",
+        "language_id": 16,
+        "available_languages": [
+            16
+        ],
+        "currency_id": 5
+    },
+    {
+        "id": 28,
+        "name": "Saint Helena, Ascension and Tristan da Cunha",
+        "official_name": "Saint Helena, Ascension and Tristan da Cunha",
+        "iso_code": "SH",
+        "iso_code_3": "SHN",
+        "language_id": 7,
+        "available_languages": [
+            7
+        ],
+        "currency_id": 20
+    },
+    {
+        "id": 29,
+        "name": "Belarus",
+        "official_name": "Republic of Belarus",
+        "iso_code": "BY",
+        "iso_code_3": "BLR",
+        "language_id": 27,
+        "available_languages": [
+            27,
+            19
+        ],
+        "currency_id": 21
+    },
+    {
+        "id": 30,
+        "name": "Belize",
+        "official_name": "Belize",
+        "iso_code": "BZ",
+        "iso_code_3": "BLZ",
+        "language_id": 28,
+        "available_languages": [
+            28,
+            7,
+            13
+        ],
+        "currency_id": 22
+    },
+    {
+        "id": 31,
+        "name": "Bermuda",
+        "official_name": "Bermuda",
+        "iso_code": "BM",
+        "iso_code_3": "BMU",
+        "language_id": 7,
+        "available_languages": [
+            7
+        ],
+        "currency_id": 23
+    },
+    {
+        "id": 32,
+        "name": "Bolivia",
+        "official_name": "Plurinational State of Bolivia",
+        "iso_code": "BO",
+        "iso_code_3": "BOL",
+        "language_id": 29,
+        "available_languages": [
+            29,
+            12,
+            30,
+            13
+        ],
+        "currency_id": 24
+    },
+    {
+        "id": 33,
+        "name": "Caribbean Netherlands",
+        "official_name": "Bonaire, Sint Eustatius and Saba",
+        "iso_code": "BQ",
+        "iso_code_3": "BES",
+        "language_id": 7,
+        "available_languages": [
+            7,
+            1,
+            2
+        ],
+        "currency_id": 10
+    },
+    {
+        "id": 34,
+        "name": "Brazil",
+        "official_name": "Federative Republic of Brazil",
+        "iso_code": "BR",
+        "iso_code_3": "BRA",
+        "language_id": 6,
+        "available_languages": [
+            6
+        ],
+        "currency_id": 25
+    },
+    {
+        "id": 35,
+        "name": "Barbados",
+        "official_name": "Barbados",
+        "iso_code": "BB",
+        "iso_code_3": "BRB",
+        "language_id": 7,
+        "available_languages": [
+            7
+        ],
+        "currency_id": 26
+    },
+    {
+        "id": 36,
+        "name": "Brunei",
+        "official_name": "Nation of Brunei, Abode of Peace",
+        "iso_code": "BN",
+        "iso_code_3": "BRN",
+        "language_id": 31,
+        "available_languages": [
+            31
+        ],
+        "currency_id": 27
+    },
+    {
+        "id": 37,
+        "name": "Bhutan",
+        "official_name": "Kingdom of Bhutan",
+        "iso_code": "BT",
+        "iso_code_3": "BTN",
+        "language_id": 32,
+        "available_languages": [
+            32
+        ],
+        "currency_id": 28
+    },
+    {
+        "id": 38,
+        "name": "Bouvet Island",
+        "official_name": "Bouvet Island",
+        "iso_code": "BV",
+        "iso_code_3": "BVT",
+        "language_id": 33,
+        "available_languages": [
+            33
+        ],
+        "currency_id": null
+    },
+    {
+        "id": 39,
+        "name": "Botswana",
+        "official_name": "Republic of Botswana",
+        "iso_code": "BW",
+        "iso_code_3": "BWA",
+        "language_id": 7,
+        "available_languages": [
+            7,
+            34
+        ],
+        "currency_id": 29
+    },
+    {
+        "id": 40,
+        "name": "Central African Republic",
+        "official_name": "Central African Republic",
+        "iso_code": "CF",
+        "iso_code_3": "CAF",
+        "language_id": 16,
+        "available_languages": [
+            16,
+            35
+        ],
+        "currency_id": 30
+    },
+    {
+        "id": 41,
+        "name": "Canada",
+        "official_name": "Canada",
+        "iso_code": "CA",
+        "iso_code_3": "CAN",
+        "language_id": 7,
+        "available_languages": [
+            7,
+            16
+        ],
+        "currency_id": 31
+    },
+    {
+        "id": 42,
+        "name": "Cocos (Keeling) Islands",
+        "official_name": "Territory of the Cocos (Keeling) Islands",
+        "iso_code": "CC",
+        "iso_code_3": "CCK",
+        "language_id": 7,
+        "available_languages": [
+            7
+        ],
+        "currency_id": 11
+    },
+    {
+        "id": 43,
+        "name": "Switzerland",
+        "official_name": "Swiss Confederation",
+        "iso_code": "CH",
+        "iso_code_3": "CHE",
+        "language_id": 16,
+        "available_languages": [
+            16,
+            36,
+            37,
+            38
+        ],
+        "currency_id": 32
+    },
+    {
+        "id": 44,
+        "name": "Chile",
+        "official_name": "Republic of Chile",
+        "iso_code": "CL",
+        "iso_code_3": "CHL",
+        "language_id": 13,
+        "available_languages": [
+            13
+        ],
+        "currency_id": 33
+    },
+    {
+        "id": 45,
+        "name": "China",
+        "official_name": "People's Republic of China",
+        "iso_code": "CN",
+        "iso_code_3": "CHN",
+        "language_id": 39,
+        "available_languages": [
+            39
+        ],
+        "currency_id": 34
+    },
+    {
+        "id": 46,
+        "name": "Ivory Coast",
+        "official_name": "Republic of Côte d'Ivoire",
+        "iso_code": "CI",
+        "iso_code_3": "CIV",
+        "language_id": 16,
+        "available_languages": [
+            16
+        ],
+        "currency_id": 14
+    },
+    {
+        "id": 47,
+        "name": "Cameroon",
+        "official_name": "Republic of Cameroon",
+        "iso_code": "CM",
+        "iso_code_3": "CMR",
+        "language_id": 7,
+        "available_languages": [
+            7,
+            16
+        ],
+        "currency_id": 30
+    },
+    {
+        "id": 48,
+        "name": "DR Congo",
+        "official_name": "Democratic Republic of the Congo",
+        "iso_code": "CD",
+        "iso_code_3": "COD",
+        "language_id": 16,
+        "available_languages": [
+            16,
+            40,
+            41,
+            42,
+            43
+        ],
+        "currency_id": 35
+    },
+    {
+        "id": 49,
+        "name": "Congo",
+        "official_name": "Republic of the Congo",
+        "iso_code": "CG",
+        "iso_code_3": "COG",
+        "language_id": 16,
+        "available_languages": [
+            16,
+            40,
+            41
+        ],
+        "currency_id": 30
+    },
+    {
+        "id": 50,
+        "name": "Cook Islands",
+        "official_name": "Cook Islands",
+        "iso_code": "CK",
+        "iso_code_3": "COK",
+        "language_id": 7,
+        "available_languages": [
+            7,
+            44
+        ],
+        "currency_id": 36
+    },
+    {
+        "id": 51,
+        "name": "Colombia",
+        "official_name": "Republic of Colombia",
+        "iso_code": "CO",
+        "iso_code_3": "COL",
+        "language_id": 13,
+        "available_languages": [
+            13
+        ],
+        "currency_id": 37
+    },
+    {
+        "id": 52,
+        "name": "Comoros",
+        "official_name": "Union of the Comoros",
+        "iso_code": "KM",
+        "iso_code_3": "COM",
+        "language_id": 11,
+        "available_languages": [
+            11,
+            16,
+            45
+        ],
+        "currency_id": 38
+    },
+    {
+        "id": 53,
+        "name": "Cape Verde",
+        "official_name": "Republic of Cabo Verde",
+        "iso_code": "CV",
+        "iso_code_3": "CPV",
+        "language_id": 6,
+        "available_languages": [
+            6
+        ],
+        "currency_id": 39
+    },
+    {
+        "id": 54,
+        "name": "Costa Rica",
+        "official_name": "Republic of Costa Rica",
+        "iso_code": "CR",
+        "iso_code_3": "CRI",
+        "language_id": 13,
+        "available_languages": [
+            13
+        ],
+        "currency_id": 40
+    },
+    {
+        "id": 55,
+        "name": "Cuba",
+        "official_name": "Republic of Cuba",
+        "iso_code": "CU",
+        "iso_code_3": "CUB",
+        "language_id": 13,
+        "available_languages": [
+            13
+        ],
+        "currency_id": 41
+    },
+    {
+        "id": 56,
+        "name": "Curaçao",
+        "official_name": "Country of Curaçao",
+        "iso_code": "CW",
+        "iso_code_3": "CUW",
+        "language_id": 7,
+        "available_languages": [
+            7,
+            1,
+            2
+        ],
+        "currency_id": 42
+    },
+    {
+        "id": 57,
+        "name": "Christmas Island",
+        "official_name": "Territory of Christmas Island",
+        "iso_code": "CX",
+        "iso_code_3": "CXR",
+        "language_id": 7,
+        "available_languages": [
+            7
+        ],
+        "currency_id": 11
+    },
+    {
+        "id": 58,
+        "name": "Cayman Islands",
+        "official_name": "Cayman Islands",
+        "iso_code": "KY",
+        "iso_code_3": "CYM",
+        "language_id": 7,
+        "available_languages": [
+            7
+        ],
+        "currency_id": 43
+    },
+    {
+        "id": 59,
+        "name": "Cyprus",
+        "official_name": "Republic of Cyprus",
+        "iso_code": "CY",
+        "iso_code_3": "CYP",
+        "language_id": 46,
+        "available_languages": [
+            46,
+            47
+        ],
+        "currency_id": 5
+    },
+    {
+        "id": 60,
+        "name": "Czechia",
+        "official_name": "Czech Republic",
+        "iso_code": "CZ",
+        "iso_code_3": "CZE",
+        "language_id": 48,
+        "available_languages": [
+            48,
+            49
+        ],
+        "currency_id": 44
+    },
+    {
+        "id": 61,
+        "name": "Germany",
+        "official_name": "Federal Republic of Germany",
+        "iso_code": "DE",
+        "iso_code_3": "DEU",
+        "language_id": 21,
+        "available_languages": [
+            21
+        ],
+        "currency_id": 5
+    },
+    {
+        "id": 62,
+        "name": "Djibouti",
+        "official_name": "Republic of Djibouti",
+        "iso_code": "DJ",
+        "iso_code_3": "DJI",
+        "language_id": 11,
+        "available_languages": [
+            11,
+            16
+        ],
+        "currency_id": 45
+    },
+    {
+        "id": 63,
+        "name": "Dominica",
+        "official_name": "Commonwealth of Dominica",
+        "iso_code": "DM",
+        "iso_code_3": "DMA",
+        "language_id": 7,
+        "available_languages": [
+            7
+        ],
+        "currency_id": 4
+    },
+    {
+        "id": 64,
+        "name": "Denmark",
+        "official_name": "Kingdom of Denmark",
+        "iso_code": "DK",
+        "iso_code_3": "DNK",
+        "language_id": 50,
+        "available_languages": [
+            50
+        ],
+        "currency_id": 46
+    },
+    {
+        "id": 65,
+        "name": "Dominican Republic",
+        "official_name": "Dominican Republic",
+        "iso_code": "DO",
+        "iso_code_3": "DOM",
+        "language_id": 13,
+        "available_languages": [
+            13
+        ],
+        "currency_id": 47
+    },
+    {
+        "id": 66,
+        "name": "Algeria",
+        "official_name": "People's Democratic Republic of Algeria",
+        "iso_code": "DZ",
+        "iso_code_3": "DZA",
+        "language_id": 11,
+        "available_languages": [
+            11
+        ],
+        "currency_id": 48
+    },
+    {
+        "id": 67,
+        "name": "Ecuador",
+        "official_name": "Republic of Ecuador",
+        "iso_code": "EC",
+        "iso_code_3": "ECU",
+        "language_id": 13,
+        "available_languages": [
+            13
+        ],
+        "currency_id": 10
+    },
+    {
+        "id": 68,
+        "name": "Egypt",
+        "official_name": "Arab Republic of Egypt",
+        "iso_code": "EG",
+        "iso_code_3": "EGY",
+        "language_id": 11,
+        "available_languages": [
+            11
+        ],
+        "currency_id": 49
+    },
+    {
+        "id": 69,
+        "name": "Eritrea",
+        "official_name": "State of Eritrea",
+        "iso_code": "ER",
+        "iso_code_3": "ERI",
+        "language_id": 11,
+        "available_languages": [
+            11,
+            7,
+            51
+        ],
+        "currency_id": 50
+    },
+    {
+        "id": 70,
+        "name": "Western Sahara",
+        "official_name": "Sahrawi Arab Democratic Republic",
+        "iso_code": "EH",
+        "iso_code_3": "ESH",
+        "language_id": 52,
+        "available_languages": [
+            52,
+            53,
+            13
+        ],
+        "currency_id": 48
+    },
+    {
+        "id": 71,
+        "name": "Spain",
+        "official_name": "Kingdom of Spain",
+        "iso_code": "ES",
+        "iso_code_3": "ESP",
+        "language_id": 13,
+        "available_languages": [
+            13
+        ],
+        "currency_id": 5
+    },
+    {
+        "id": 72,
+        "name": "Estonia",
+        "official_name": "Republic of Estonia",
+        "iso_code": "EE",
+        "iso_code_3": "EST",
+        "language_id": 54,
+        "available_languages": [
+            54
+        ],
+        "currency_id": 5
+    },
+    {
+        "id": 73,
+        "name": "Ethiopia",
+        "official_name": "Federal Democratic Republic of Ethiopia",
+        "iso_code": "ET",
+        "iso_code_3": "ETH",
+        "language_id": 55,
+        "available_languages": [
+            55
+        ],
+        "currency_id": 51
+    },
+    {
+        "id": 74,
+        "name": "Finland",
+        "official_name": "Republic of Finland",
+        "iso_code": "FI",
+        "iso_code_3": "FIN",
+        "language_id": 56,
+        "available_languages": [
+            56,
+            8
+        ],
+        "currency_id": 5
+    },
+    {
+        "id": 75,
+        "name": "Fiji",
+        "official_name": "Republic of Fiji",
+        "iso_code": "FJ",
+        "iso_code_3": "FJI",
+        "language_id": 7,
+        "available_languages": [
+            7,
+            57,
+            58
+        ],
+        "currency_id": 52
+    },
+    {
+        "id": 76,
+        "name": "Falkland Islands",
+        "official_name": "Falkland Islands",
+        "iso_code": "FK",
+        "iso_code_3": "FLK",
+        "language_id": 7,
+        "available_languages": [
+            7
+        ],
+        "currency_id": 53
+    },
+    {
+        "id": 77,
+        "name": "France",
+        "official_name": "French Republic",
+        "iso_code": "FR",
+        "iso_code_3": "FRA",
+        "language_id": 16,
+        "available_languages": [
+            16
+        ],
+        "currency_id": 5
+    },
+    {
+        "id": 78,
+        "name": "Faroe Islands",
+        "official_name": "Faroe Islands",
+        "iso_code": "FO",
+        "iso_code_3": "FRO",
+        "language_id": 50,
+        "available_languages": [
+            50,
+            59
+        ],
+        "currency_id": 46
+    },
+    {
+        "id": 79,
+        "name": "Micronesia",
+        "official_name": "Federated States of Micronesia",
+        "iso_code": "FM",
+        "iso_code_3": "FSM",
+        "language_id": 7,
+        "available_languages": [
+            7
+        ],
+        "currency_id": null
+    },
+    {
+        "id": 80,
+        "name": "Gabon",
+        "official_name": "Gabonese Republic",
+        "iso_code": "GA",
+        "iso_code_3": "GAB",
+        "language_id": 16,
+        "available_languages": [
+            16
+        ],
+        "currency_id": 30
+    },
+    {
+        "id": 81,
+        "name": "United Kingdom",
+        "official_name": "United Kingdom of Great Britain and Northern Ireland",
+        "iso_code": "GB",
+        "iso_code_3": "GBR",
+        "language_id": 7,
+        "available_languages": [
+            7
+        ],
+        "currency_id": 20
+    },
+    {
+        "id": 82,
+        "name": "Georgia",
+        "official_name": "Georgia",
+        "iso_code": "GE",
+        "iso_code_3": "GEO",
+        "language_id": 60,
+        "available_languages": [
+            60
+        ],
+        "currency_id": 54
+    },
+    {
+        "id": 83,
+        "name": "Guernsey",
+        "official_name": "Bailiwick of Guernsey",
+        "iso_code": "GG",
+        "iso_code_3": "GGY",
+        "language_id": 7,
+        "available_languages": [
+            7,
+            16,
+            61
+        ],
+        "currency_id": 20
+    },
+    {
+        "id": 84,
+        "name": "Ghana",
+        "official_name": "Republic of Ghana",
+        "iso_code": "GH",
+        "iso_code_3": "GHA",
+        "language_id": 7,
+        "available_languages": [
+            7
+        ],
+        "currency_id": 55
+    },
+    {
+        "id": 85,
+        "name": "Gibraltar",
+        "official_name": "Gibraltar",
+        "iso_code": "GI",
+        "iso_code_3": "GIB",
+        "language_id": 7,
+        "available_languages": [
+            7
+        ],
+        "currency_id": 56
+    },
+    {
+        "id": 86,
+        "name": "Guinea",
+        "official_name": "Republic of Guinea",
+        "iso_code": "GN",
+        "iso_code_3": "GIN",
+        "language_id": 16,
+        "available_languages": [
+            16
+        ],
+        "currency_id": 57
+    },
+    {
+        "id": 87,
+        "name": "Guadeloupe",
+        "official_name": "Guadeloupe",
+        "iso_code": "GP",
+        "iso_code_3": "GLP",
+        "language_id": 16,
+        "available_languages": [
+            16
+        ],
+        "currency_id": 5
+    },
+    {
+        "id": 88,
+        "name": "Gambia",
+        "official_name": "Republic of the Gambia",
+        "iso_code": "GM",
+        "iso_code_3": "GMB",
+        "language_id": 7,
+        "available_languages": [
+            7
+        ],
+        "currency_id": 58
+    },
+    {
+        "id": 89,
+        "name": "Guinea-Bissau",
+        "official_name": "Republic of Guinea-Bissau",
+        "iso_code": "GW",
+        "iso_code_3": "GNB",
+        "language_id": 6,
+        "available_languages": [
+            6,
+            62
+        ],
+        "currency_id": 14
+    },
+    {
+        "id": 90,
+        "name": "Equatorial Guinea",
+        "official_name": "Republic of Equatorial Guinea",
+        "iso_code": "GQ",
+        "iso_code_3": "GNQ",
+        "language_id": 16,
+        "available_languages": [
+            16,
+            6,
+            13
+        ],
+        "currency_id": 30
+    },
+    {
+        "id": 91,
+        "name": "Greece",
+        "official_name": "Hellenic Republic",
+        "iso_code": "GR",
+        "iso_code_3": "GRC",
+        "language_id": 46,
+        "available_languages": [
+            46
+        ],
+        "currency_id": 5
+    },
+    {
+        "id": 92,
+        "name": "Grenada",
+        "official_name": "Grenada",
+        "iso_code": "GD",
+        "iso_code_3": "GRD",
+        "language_id": 7,
+        "available_languages": [
+            7
+        ],
+        "currency_id": 4
+    },
+    {
+        "id": 93,
+        "name": "Greenland",
+        "official_name": "Greenland",
+        "iso_code": "GL",
+        "iso_code_3": "GRL",
+        "language_id": 63,
+        "available_languages": [
+            63
+        ],
+        "currency_id": 46
+    },
+    {
+        "id": 94,
+        "name": "Guatemala",
+        "official_name": "Republic of Guatemala",
+        "iso_code": "GT",
+        "iso_code_3": "GTM",
+        "language_id": 13,
+        "available_languages": [
+            13
+        ],
+        "currency_id": 59
+    },
+    {
+        "id": 95,
+        "name": "French Guiana",
+        "official_name": "Guiana",
+        "iso_code": "GF",
+        "iso_code_3": "GUF",
+        "language_id": 16,
+        "available_languages": [
+            16
+        ],
+        "currency_id": 5
+    },
+    {
+        "id": 96,
+        "name": "Guam",
+        "official_name": "Guam",
+        "iso_code": "GU",
+        "iso_code_3": "GUM",
+        "language_id": 64,
+        "available_languages": [
+            64,
+            7,
+            13
+        ],
+        "currency_id": 10
+    },
+    {
+        "id": 97,
+        "name": "Guyana",
+        "official_name": "Co-operative Republic of Guyana",
+        "iso_code": "GY",
+        "iso_code_3": "GUY",
+        "language_id": 7,
+        "available_languages": [
+            7
+        ],
+        "currency_id": 60
+    },
+    {
+        "id": 98,
+        "name": "Hong Kong",
+        "official_name": "Hong Kong Special Administrative Region of the People's Republic of China",
+        "iso_code": "HK",
+        "iso_code_3": "HKG",
+        "language_id": 7,
+        "available_languages": [
+            7,
+            39
+        ],
+        "currency_id": 61
+    },
+    {
+        "id": 99,
+        "name": "Heard Island and McDonald Islands",
+        "official_name": "Heard Island and McDonald Islands",
+        "iso_code": "HM",
+        "iso_code_3": "HMD",
+        "language_id": 7,
+        "available_languages": [
+            7
+        ],
+        "currency_id": null
+    },
+    {
+        "id": 100,
+        "name": "Honduras",
+        "official_name": "Republic of Honduras",
+        "iso_code": "HN",
+        "iso_code_3": "HND",
+        "language_id": 13,
+        "available_languages": [
+            13
+        ],
+        "currency_id": 62
+    },
+    {
+        "id": 101,
+        "name": "Croatia",
+        "official_name": "Republic of Croatia",
+        "iso_code": "HR",
+        "iso_code_3": "HRV",
+        "language_id": 25,
+        "available_languages": [
+            25
+        ],
+        "currency_id": 5
+    },
+    {
+        "id": 102,
+        "name": "Haiti",
+        "official_name": "Republic of Haiti",
+        "iso_code": "HT",
+        "iso_code_3": "HTI",
+        "language_id": 16,
+        "available_languages": [
+            16,
+            65
+        ],
+        "currency_id": 63
+    },
+    {
+        "id": 103,
+        "name": "Hungary",
+        "official_name": "Hungary",
+        "iso_code": "HU",
+        "iso_code_3": "HUN",
+        "language_id": 66,
+        "available_languages": [
+            66
+        ],
+        "currency_id": 64
+    },
+    {
+        "id": 104,
+        "name": "Indonesia",
+        "official_name": "Republic of Indonesia",
+        "iso_code": "ID",
+        "iso_code_3": "IDN",
+        "language_id": 67,
+        "available_languages": [
+            67
+        ],
+        "currency_id": 65
+    },
+    {
+        "id": 105,
+        "name": "Isle of Man",
+        "official_name": "Isle of Man",
+        "iso_code": "IM",
+        "iso_code_3": "IMN",
+        "language_id": 7,
+        "available_languages": [
+            7,
+            68
+        ],
+        "currency_id": 20
+    },
+    {
+        "id": 106,
+        "name": "India",
+        "official_name": "Republic of India",
+        "iso_code": "IN",
+        "iso_code_3": "IND",
+        "language_id": 7,
+        "available_languages": [
+            7,
+            69,
+            70
+        ],
+        "currency_id": 66
+    },
+    {
+        "id": 107,
+        "name": "British Indian Ocean Territory",
+        "official_name": "British Indian Ocean Territory",
+        "iso_code": "IO",
+        "iso_code_3": "IOT",
+        "language_id": 7,
+        "available_languages": [
+            7
+        ],
+        "currency_id": 10
+    },
+    {
+        "id": 108,
+        "name": "Ireland",
+        "official_name": "Republic of Ireland",
+        "iso_code": "IE",
+        "iso_code_3": "IRL",
+        "language_id": 7,
+        "available_languages": [
+            7,
+            71
+        ],
+        "currency_id": 5
+    },
+    {
+        "id": 109,
+        "name": "Iran",
+        "official_name": "Islamic Republic of Iran",
+        "iso_code": "IR",
+        "iso_code_3": "IRN",
+        "language_id": 72,
+        "available_languages": [
+            72
+        ],
+        "currency_id": 67
+    },
+    {
+        "id": 110,
+        "name": "Iraq",
+        "official_name": "Republic of Iraq",
+        "iso_code": "IQ",
+        "iso_code_3": "IRQ",
+        "language_id": 11,
+        "available_languages": [
+            11,
+            73,
+            74
+        ],
+        "currency_id": 68
+    },
+    {
+        "id": 111,
+        "name": "Iceland",
+        "official_name": "Iceland",
+        "iso_code": "IS",
+        "iso_code_3": "ISL",
+        "language_id": 75,
+        "available_languages": [
+            75
+        ],
+        "currency_id": 69
+    },
+    {
+        "id": 112,
+        "name": "Israel",
+        "official_name": "State of Israel",
+        "iso_code": "IL",
+        "iso_code_3": "ISR",
+        "language_id": 11,
+        "available_languages": [
+            11,
+            76
+        ],
+        "currency_id": 70
+    },
+    {
+        "id": 113,
+        "name": "Italy",
+        "official_name": "Italian Republic",
+        "iso_code": "IT",
+        "iso_code_3": "ITA",
+        "language_id": 37,
+        "available_languages": [
+            37
+        ],
+        "currency_id": 5
+    },
+    {
+        "id": 114,
+        "name": "Jamaica",
+        "official_name": "Jamaica",
+        "iso_code": "JM",
+        "iso_code_3": "JAM",
+        "language_id": 7,
+        "available_languages": [
+            7,
+            77
+        ],
+        "currency_id": 71
+    },
+    {
+        "id": 115,
+        "name": "Jersey",
+        "official_name": "Bailiwick of Jersey",
+        "iso_code": "JE",
+        "iso_code_3": "JEY",
+        "language_id": 7,
+        "available_languages": [
+            7,
+            16,
+            78
+        ],
+        "currency_id": 20
+    },
+    {
+        "id": 116,
+        "name": "Jordan",
+        "official_name": "Hashemite Kingdom of Jordan",
+        "iso_code": "JO",
+        "iso_code_3": "JOR",
+        "language_id": 11,
+        "available_languages": [
+            11
+        ],
+        "currency_id": 72
+    },
+    {
+        "id": 117,
+        "name": "Japan",
+        "official_name": "Japan",
+        "iso_code": "JP",
+        "iso_code_3": "JPN",
+        "language_id": 79,
+        "available_languages": [
+            79
+        ],
+        "currency_id": 73
+    },
+    {
+        "id": 118,
+        "name": "Kazakhstan",
+        "official_name": "Republic of Kazakhstan",
+        "iso_code": "KZ",
+        "iso_code_3": "KAZ",
+        "language_id": 80,
+        "available_languages": [
+            80,
+            19
+        ],
+        "currency_id": 74
+    },
+    {
+        "id": 119,
+        "name": "Kenya",
+        "official_name": "Republic of Kenya",
+        "iso_code": "KE",
+        "iso_code_3": "KEN",
+        "language_id": 7,
+        "available_languages": [
+            7,
+            43
+        ],
+        "currency_id": 75
+    },
+    {
+        "id": 120,
+        "name": "Kyrgyzstan",
+        "official_name": "Kyrgyz Republic",
+        "iso_code": "KG",
+        "iso_code_3": "KGZ",
+        "language_id": 81,
+        "available_languages": [
+            81,
+            19
+        ],
+        "currency_id": 76
+    },
+    {
+        "id": 121,
+        "name": "Cambodia",
+        "official_name": "Kingdom of Cambodia",
+        "iso_code": "KH",
+        "iso_code_3": "KHM",
+        "language_id": 82,
+        "available_languages": [
+            82
+        ],
+        "currency_id": 77
+    },
+    {
+        "id": 122,
+        "name": "Kiribati",
+        "official_name": "Independent and Sovereign Republic of Kiribati",
+        "iso_code": "KI",
+        "iso_code_3": "KIR",
+        "language_id": 7,
+        "available_languages": [
+            7,
+            83
+        ],
+        "currency_id": 11
+    },
+    {
+        "id": 123,
+        "name": "Saint Kitts and Nevis",
+        "official_name": "Federation of Saint Christopher and Nevis",
+        "iso_code": "KN",
+        "iso_code_3": "KNA",
+        "language_id": 7,
+        "available_languages": [
+            7
+        ],
+        "currency_id": 4
+    },
+    {
+        "id": 124,
+        "name": "South Korea",
+        "official_name": "Republic of Korea",
+        "iso_code": "KR",
+        "iso_code_3": "KOR",
+        "language_id": 84,
+        "available_languages": [
+            84
+        ],
+        "currency_id": 78
+    },
+    {
+        "id": 125,
+        "name": "Kosovo",
+        "official_name": "Republic of Kosovo",
+        "iso_code": "XK",
+        "iso_code_3": "UNK",
+        "language_id": 9,
+        "available_languages": [
+            9,
+            26
+        ],
+        "currency_id": 5
+    },
+    {
+        "id": 126,
+        "name": "Kuwait",
+        "official_name": "State of Kuwait",
+        "iso_code": "KW",
+        "iso_code_3": "KWT",
+        "language_id": 11,
+        "available_languages": [
+            11
+        ],
+        "currency_id": 79
+    },
+    {
+        "id": 127,
+        "name": "Laos",
+        "official_name": "Lao People's Democratic Republic",
+        "iso_code": "LA",
+        "iso_code_3": "LAO",
+        "language_id": 85,
+        "available_languages": [
+            85
+        ],
+        "currency_id": 80
+    },
+    {
+        "id": 128,
+        "name": "Lebanon",
+        "official_name": "Lebanese Republic",
+        "iso_code": "LB",
+        "iso_code_3": "LBN",
+        "language_id": 11,
+        "available_languages": [
+            11,
+            16
+        ],
+        "currency_id": 81
+    },
+    {
+        "id": 129,
+        "name": "Liberia",
+        "official_name": "Republic of Liberia",
+        "iso_code": "LR",
+        "iso_code_3": "LBR",
+        "language_id": 7,
+        "available_languages": [
+            7
+        ],
+        "currency_id": 82
+    },
+    {
+        "id": 130,
+        "name": "Libya",
+        "official_name": "State of Libya",
+        "iso_code": "LY",
+        "iso_code_3": "LBY",
+        "language_id": 11,
+        "available_languages": [
+            11
+        ],
+        "currency_id": 83
+    },
+    {
+        "id": 131,
+        "name": "Saint Lucia",
+        "official_name": "Saint Lucia",
+        "iso_code": "LC",
+        "iso_code_3": "LCA",
+        "language_id": 7,
+        "available_languages": [
+            7
+        ],
+        "currency_id": 4
+    },
+    {
+        "id": 132,
+        "name": "Liechtenstein",
+        "official_name": "Principality of Liechtenstein",
+        "iso_code": "LI",
+        "iso_code_3": "LIE",
+        "language_id": 21,
+        "available_languages": [
+            21
+        ],
+        "currency_id": 32
+    },
+    {
+        "id": 133,
+        "name": "Sri Lanka",
+        "official_name": "Democratic Socialist Republic of Sri Lanka",
+        "iso_code": "LK",
+        "iso_code_3": "LKA",
+        "language_id": 86,
+        "available_languages": [
+            86,
+            70
+        ],
+        "currency_id": 84
+    },
+    {
+        "id": 134,
+        "name": "Lesotho",
+        "official_name": "Kingdom of Lesotho",
+        "iso_code": "LS",
+        "iso_code_3": "LSO",
+        "language_id": 7,
+        "available_languages": [
+            7,
+            87
+        ],
+        "currency_id": 85
+    },
+    {
+        "id": 135,
+        "name": "Lithuania",
+        "official_name": "Republic of Lithuania",
+        "iso_code": "LT",
+        "iso_code_3": "LTU",
+        "language_id": 88,
+        "available_languages": [
+            88
+        ],
+        "currency_id": 5
+    },
+    {
+        "id": 136,
+        "name": "Luxembourg",
+        "official_name": "Grand Duchy of Luxembourg",
+        "iso_code": "LU",
+        "iso_code_3": "LUX",
+        "language_id": 21,
+        "available_languages": [
+            21,
+            16,
+            89
+        ],
+        "currency_id": 5
+    },
+    {
+        "id": 137,
+        "name": "Latvia",
+        "official_name": "Republic of Latvia",
+        "iso_code": "LV",
+        "iso_code_3": "LVA",
+        "language_id": 90,
+        "available_languages": [
+            90
+        ],
+        "currency_id": 5
+    },
+    {
+        "id": 138,
+        "name": "Macau",
+        "official_name": "Macao Special Administrative Region of the People's Republic of China",
+        "iso_code": "MO",
+        "iso_code_3": "MAC",
+        "language_id": 6,
+        "available_languages": [
+            6,
+            39
+        ],
+        "currency_id": 86
+    },
+    {
+        "id": 139,
+        "name": "Saint Martin",
+        "official_name": "Saint Martin",
+        "iso_code": "MF",
+        "iso_code_3": "MAF",
+        "language_id": 16,
+        "available_languages": [
+            16
+        ],
+        "currency_id": 5
+    },
+    {
+        "id": 140,
+        "name": "Morocco",
+        "official_name": "Kingdom of Morocco",
+        "iso_code": "MA",
+        "iso_code_3": "MAR",
+        "language_id": 11,
+        "available_languages": [
+            11,
+            52
+        ],
+        "currency_id": 87
+    },
+    {
+        "id": 141,
+        "name": "Monaco",
+        "official_name": "Principality of Monaco",
+        "iso_code": "MC",
+        "iso_code_3": "MCO",
+        "language_id": 16,
+        "available_languages": [
+            16
+        ],
+        "currency_id": 5
+    },
+    {
+        "id": 142,
+        "name": "Moldova",
+        "official_name": "Republic of Moldova",
+        "iso_code": "MD",
+        "iso_code_3": "MDA",
+        "language_id": 91,
+        "available_languages": [
+            91
+        ],
+        "currency_id": 88
+    },
+    {
+        "id": 143,
+        "name": "Madagascar",
+        "official_name": "Republic of Madagascar",
+        "iso_code": "MG",
+        "iso_code_3": "MDG",
+        "language_id": 16,
+        "available_languages": [
+            16,
+            92
+        ],
+        "currency_id": 89
+    },
+    {
+        "id": 144,
+        "name": "Maldives",
+        "official_name": "Republic of the Maldives",
+        "iso_code": "MV",
+        "iso_code_3": "MDV",
+        "language_id": 93,
+        "available_languages": [
+            93
+        ],
+        "currency_id": 90
+    },
+    {
+        "id": 145,
+        "name": "Mexico",
+        "official_name": "United Mexican States",
+        "iso_code": "MX",
+        "iso_code_3": "MEX",
+        "language_id": 13,
+        "available_languages": [
+            13
+        ],
+        "currency_id": 91
+    },
+    {
+        "id": 146,
+        "name": "Marshall Islands",
+        "official_name": "Republic of the Marshall Islands",
+        "iso_code": "MH",
+        "iso_code_3": "MHL",
+        "language_id": 7,
+        "available_languages": [
+            7,
+            94
+        ],
+        "currency_id": 10
+    },
+    {
+        "id": 147,
+        "name": "North Macedonia",
+        "official_name": "Republic of North Macedonia",
+        "iso_code": "MK",
+        "iso_code_3": "MKD",
+        "language_id": 95,
+        "available_languages": [
+            95
+        ],
+        "currency_id": 92
+    },
+    {
+        "id": 148,
+        "name": "Mali",
+        "official_name": "Republic of Mali",
+        "iso_code": "ML",
+        "iso_code_3": "MLI",
+        "language_id": 16,
+        "available_languages": [
+            16
+        ],
+        "currency_id": 14
+    },
+    {
+        "id": 149,
+        "name": "Malta",
+        "official_name": "Republic of Malta",
+        "iso_code": "MT",
+        "iso_code_3": "MLT",
+        "language_id": 7,
+        "available_languages": [
+            7,
+            96
+        ],
+        "currency_id": 5
+    },
+    {
+        "id": 150,
+        "name": "Myanmar",
+        "official_name": "Republic of the Union of Myanmar",
+        "iso_code": "MM",
+        "iso_code_3": "MMR",
+        "language_id": 97,
+        "available_languages": [
+            97
+        ],
+        "currency_id": 93
+    },
+    {
+        "id": 151,
+        "name": "Montenegro",
+        "official_name": "Montenegro",
+        "iso_code": "ME",
+        "iso_code_3": "MNE",
+        "language_id": 98,
+        "available_languages": [
+            98
+        ],
+        "currency_id": 5
+    },
+    {
+        "id": 152,
+        "name": "Mongolia",
+        "official_name": "Mongolia",
+        "iso_code": "MN",
+        "iso_code_3": "MNG",
+        "language_id": 99,
+        "available_languages": [
+            99
+        ],
+        "currency_id": 94
+    },
+    {
+        "id": 153,
+        "name": "Northern Mariana Islands",
+        "official_name": "Commonwealth of the Northern Mariana Islands",
+        "iso_code": "MP",
+        "iso_code_3": "MNP",
+        "language_id": 100,
+        "available_languages": [
+            100,
+            64,
+            7
+        ],
+        "currency_id": 10
+    },
+    {
+        "id": 154,
+        "name": "Mozambique",
+        "official_name": "Republic of Mozambique",
+        "iso_code": "MZ",
+        "iso_code_3": "MOZ",
+        "language_id": 6,
+        "available_languages": [
+            6
+        ],
+        "currency_id": 95
+    },
+    {
+        "id": 155,
+        "name": "Mauritania",
+        "official_name": "Islamic Republic of Mauritania",
+        "iso_code": "MR",
+        "iso_code_3": "MRT",
+        "language_id": 11,
+        "available_languages": [
+            11
+        ],
+        "currency_id": 96
+    },
+    {
+        "id": 156,
+        "name": "Montserrat",
+        "official_name": "Montserrat",
+        "iso_code": "MS",
+        "iso_code_3": "MSR",
+        "language_id": 7,
+        "available_languages": [
+            7
+        ],
+        "currency_id": 4
+    },
+    {
+        "id": 157,
+        "name": "Martinique",
+        "official_name": "Martinique",
+        "iso_code": "MQ",
+        "iso_code_3": "MTQ",
+        "language_id": 16,
+        "available_languages": [
+            16
+        ],
+        "currency_id": 5
+    },
+    {
+        "id": 158,
+        "name": "Mauritius",
+        "official_name": "Republic of Mauritius",
+        "iso_code": "MU",
+        "iso_code_3": "MUS",
+        "language_id": 7,
+        "available_languages": [
+            7,
+            16,
+            101
+        ],
+        "currency_id": 97
+    },
+    {
+        "id": 159,
+        "name": "Malawi",
+        "official_name": "Republic of Malawi",
+        "iso_code": "MW",
+        "iso_code_3": "MWI",
+        "language_id": 7,
+        "available_languages": [
+            7,
+            102
+        ],
+        "currency_id": 98
+    },
+    {
+        "id": 160,
+        "name": "Malaysia",
+        "official_name": "Malaysia",
+        "iso_code": "MY",
+        "iso_code_3": "MYS",
+        "language_id": 7,
+        "available_languages": [
+            7,
+            31
+        ],
+        "currency_id": 99
+    },
+    {
+        "id": 161,
+        "name": "Mayotte",
+        "official_name": "Department of Mayotte",
+        "iso_code": "YT",
+        "iso_code_3": "MYT",
+        "language_id": 16,
+        "available_languages": [
+            16
+        ],
+        "currency_id": 5
+    },
+    {
+        "id": 162,
+        "name": "Namibia",
+        "official_name": "Republic of Namibia",
+        "iso_code": "NA",
+        "iso_code_3": "NAM",
+        "language_id": 103,
+        "available_languages": [
+            103,
+            21,
+            7,
+            104,
+            105,
+            106,
+            107,
+            108,
+            34
+        ],
+        "currency_id": 100
+    },
+    {
+        "id": 163,
+        "name": "New Caledonia",
+        "official_name": "New Caledonia",
+        "iso_code": "NC",
+        "iso_code_3": "NCL",
+        "language_id": 16,
+        "available_languages": [
+            16
+        ],
+        "currency_id": 101
+    },
+    {
+        "id": 164,
+        "name": "Niger",
+        "official_name": "Republic of Niger",
+        "iso_code": "NE",
+        "iso_code_3": "NER",
+        "language_id": 16,
+        "available_languages": [
+            16
+        ],
+        "currency_id": 14
+    },
+    {
+        "id": 165,
+        "name": "Norfolk Island",
+        "official_name": "Territory of Norfolk Island",
+        "iso_code": "NF",
+        "iso_code_3": "NFK",
+        "language_id": 7,
+        "available_languages": [
+            7,
+            109
+        ],
+        "currency_id": 11
+    },
+    {
+        "id": 166,
+        "name": "Nigeria",
+        "official_name": "Federal Republic of Nigeria",
+        "iso_code": "NG",
+        "iso_code_3": "NGA",
+        "language_id": 7,
+        "available_languages": [
+            7
+        ],
+        "currency_id": 102
+    },
+    {
+        "id": 167,
+        "name": "Nicaragua",
+        "official_name": "Republic of Nicaragua",
+        "iso_code": "NI",
+        "iso_code_3": "NIC",
+        "language_id": 13,
+        "available_languages": [
+            13
+        ],
+        "currency_id": 103
+    },
+    {
+        "id": 168,
+        "name": "Niue",
+        "official_name": "Niue",
+        "iso_code": "NU",
+        "iso_code_3": "NIU",
+        "language_id": 7,
+        "available_languages": [
+            7,
+            110
+        ],
+        "currency_id": 104
+    },
+    {
+        "id": 169,
+        "name": "Netherlands",
+        "official_name": "Kingdom of the Netherlands",
+        "iso_code": "NL",
+        "iso_code_3": "NLD",
+        "language_id": 1,
+        "available_languages": [
+            1
+        ],
+        "currency_id": 5
+    },
+    {
+        "id": 170,
+        "name": "Norway",
+        "official_name": "Kingdom of Norway",
+        "iso_code": "NO",
+        "iso_code_3": "NOR",
+        "language_id": 111,
+        "available_languages": [
+            111,
+            112,
+            113
+        ],
+        "currency_id": 105
+    },
+    {
+        "id": 171,
+        "name": "Nepal",
+        "official_name": "Federal Democratic Republic of Nepal",
+        "iso_code": "NP",
+        "iso_code_3": "NPL",
+        "language_id": 114,
+        "available_languages": [
+            114
+        ],
+        "currency_id": 106
+    },
+    {
+        "id": 172,
+        "name": "Nauru",
+        "official_name": "Republic of Nauru",
+        "iso_code": "NR",
+        "iso_code_3": "NRU",
+        "language_id": 7,
+        "available_languages": [
+            7,
+            115
+        ],
+        "currency_id": 11
+    },
+    {
+        "id": 173,
+        "name": "New Zealand",
+        "official_name": "New Zealand",
+        "iso_code": "NZ",
+        "iso_code_3": "NZL",
+        "language_id": 7,
+        "available_languages": [
+            7,
+            116,
+            117
+        ],
+        "currency_id": 104
+    },
+    {
+        "id": 174,
+        "name": "Oman",
+        "official_name": "Sultanate of Oman",
+        "iso_code": "OM",
+        "iso_code_3": "OMN",
+        "language_id": 11,
+        "available_languages": [
+            11
+        ],
+        "currency_id": 107
+    },
+    {
+        "id": 175,
+        "name": "Pakistan",
+        "official_name": "Islamic Republic of Pakistan",
+        "iso_code": "PK",
+        "iso_code_3": "PAK",
+        "language_id": 7,
+        "available_languages": [
+            7,
+            118
+        ],
+        "currency_id": 108
+    },
+    {
+        "id": 176,
+        "name": "Panama",
+        "official_name": "Republic of Panama",
+        "iso_code": "PA",
+        "iso_code_3": "PAN",
+        "language_id": 13,
+        "available_languages": [
+            13
+        ],
+        "currency_id": 109
+    },
+    {
+        "id": 177,
+        "name": "Pitcairn Islands",
+        "official_name": "Pitcairn Group of Islands",
+        "iso_code": "PN",
+        "iso_code_3": "PCN",
+        "language_id": 7,
+        "available_languages": [
+            7
+        ],
+        "currency_id": 104
+    },
+    {
+        "id": 178,
+        "name": "Peru",
+        "official_name": "Republic of Peru",
+        "iso_code": "PE",
+        "iso_code_3": "PER",
+        "language_id": 29,
+        "available_languages": [
+            29,
+            30,
+            13
+        ],
+        "currency_id": 110
+    },
+    {
+        "id": 179,
+        "name": "Philippines",
+        "official_name": "Republic of the Philippines",
+        "iso_code": "PH",
+        "iso_code_3": "PHL",
+        "language_id": 7,
+        "available_languages": [
+            7,
+            119
+        ],
+        "currency_id": 111
+    },
+    {
+        "id": 180,
+        "name": "Palau",
+        "official_name": "Republic of Palau",
+        "iso_code": "PW",
+        "iso_code_3": "PLW",
+        "language_id": 7,
+        "available_languages": [
+            7,
+            120
+        ],
+        "currency_id": 10
+    },
+    {
+        "id": 181,
+        "name": "Papua New Guinea",
+        "official_name": "Independent State of Papua New Guinea",
+        "iso_code": "PG",
+        "iso_code_3": "PNG",
+        "language_id": 7,
+        "available_languages": [
+            7,
+            121,
+            122
+        ],
+        "currency_id": 112
+    },
+    {
+        "id": 182,
+        "name": "Poland",
+        "official_name": "Republic of Poland",
+        "iso_code": "PL",
+        "iso_code_3": "POL",
+        "language_id": 123,
+        "available_languages": [
+            123
+        ],
+        "currency_id": 113
+    },
+    {
+        "id": 183,
+        "name": "Puerto Rico",
+        "official_name": "Commonwealth of Puerto Rico",
+        "iso_code": "PR",
+        "iso_code_3": "PRI",
+        "language_id": 7,
+        "available_languages": [
+            7,
+            13
+        ],
+        "currency_id": 10
+    },
+    {
+        "id": 184,
+        "name": "North Korea",
+        "official_name": "Democratic People's Republic of Korea",
+        "iso_code": "KP",
+        "iso_code_3": "PRK",
+        "language_id": 84,
+        "available_languages": [
+            84
+        ],
+        "currency_id": 114
+    },
+    {
+        "id": 185,
+        "name": "Portugal",
+        "official_name": "Portuguese Republic",
+        "iso_code": "PT",
+        "iso_code_3": "PRT",
+        "language_id": 6,
+        "available_languages": [
+            6
+        ],
+        "currency_id": 5
+    },
+    {
+        "id": 186,
+        "name": "Paraguay",
+        "official_name": "Republic of Paraguay",
+        "iso_code": "PY",
+        "iso_code_3": "PRY",
+        "language_id": 12,
+        "available_languages": [
+            12,
+            13
+        ],
+        "currency_id": 115
+    },
+    {
+        "id": 187,
+        "name": "Palestine",
+        "official_name": "State of Palestine",
+        "iso_code": "PS",
+        "iso_code_3": "PSE",
+        "language_id": 11,
+        "available_languages": [
+            11
+        ],
+        "currency_id": 49
+    },
+    {
+        "id": 188,
+        "name": "French Polynesia",
+        "official_name": "French Polynesia",
+        "iso_code": "PF",
+        "iso_code_3": "PYF",
+        "language_id": 16,
+        "available_languages": [
+            16
+        ],
+        "currency_id": 101
+    },
+    {
+        "id": 189,
+        "name": "Qatar",
+        "official_name": "State of Qatar",
+        "iso_code": "QA",
+        "iso_code_3": "QAT",
+        "language_id": 11,
+        "available_languages": [
+            11
+        ],
+        "currency_id": 116
+    },
+    {
+        "id": 190,
+        "name": "Réunion",
+        "official_name": "Réunion Island",
+        "iso_code": "RE",
+        "iso_code_3": "REU",
+        "language_id": 16,
+        "available_languages": [
+            16
+        ],
+        "currency_id": 5
+    },
+    {
+        "id": 191,
+        "name": "Romania",
+        "official_name": "Romania",
+        "iso_code": "RO",
+        "iso_code_3": "ROU",
+        "language_id": 91,
+        "available_languages": [
+            91
+        ],
+        "currency_id": 117
+    },
+    {
+        "id": 192,
+        "name": "Russia",
+        "official_name": "Russian Federation",
+        "iso_code": "RU",
+        "iso_code_3": "RUS",
+        "language_id": 19,
+        "available_languages": [
+            19
+        ],
+        "currency_id": 118
+    },
+    {
+        "id": 193,
+        "name": "Rwanda",
+        "official_name": "Republic of Rwanda",
+        "iso_code": "RW",
+        "iso_code_3": "RWA",
+        "language_id": 7,
+        "available_languages": [
+            7,
+            16,
+            124
+        ],
+        "currency_id": 119
+    },
+    {
+        "id": 194,
+        "name": "Saudi Arabia",
+        "official_name": "Kingdom of Saudi Arabia",
+        "iso_code": "SA",
+        "iso_code_3": "SAU",
+        "language_id": 11,
+        "available_languages": [
+            11
+        ],
+        "currency_id": 120
+    },
+    {
+        "id": 195,
+        "name": "Sudan",
+        "official_name": "Republic of the Sudan",
+        "iso_code": "SD",
+        "iso_code_3": "SDN",
+        "language_id": 11,
+        "available_languages": [
+            11,
+            7
+        ],
+        "currency_id": 121
+    },
+    {
+        "id": 196,
+        "name": "Senegal",
+        "official_name": "Republic of Senegal",
+        "iso_code": "SN",
+        "iso_code_3": "SEN",
+        "language_id": 16,
+        "available_languages": [
+            16
+        ],
+        "currency_id": 14
+    },
+    {
+        "id": 197,
+        "name": "Singapore",
+        "official_name": "Republic of Singapore",
+        "iso_code": "SG",
+        "iso_code_3": "SGP",
+        "language_id": 7,
+        "available_languages": [
+            7,
+            31,
+            70,
+            39
+        ],
+        "currency_id": 122
+    },
+    {
+        "id": 198,
+        "name": "South Georgia",
+        "official_name": "South Georgia and the South Sandwich Islands",
+        "iso_code": "GS",
+        "iso_code_3": "SGS",
+        "language_id": 7,
+        "available_languages": [
+            7
+        ],
+        "currency_id": 123
+    },
+    {
+        "id": 199,
+        "name": "Svalbard and Jan Mayen",
+        "official_name": "Svalbard og Jan Mayen",
+        "iso_code": "SJ",
+        "iso_code_3": "SJM",
+        "language_id": 33,
+        "available_languages": [
+            33
+        ],
+        "currency_id": 105
+    },
+    {
+        "id": 200,
+        "name": "Solomon Islands",
+        "official_name": "Solomon Islands",
+        "iso_code": "SB",
+        "iso_code_3": "SLB",
+        "language_id": 7,
+        "available_languages": [
+            7
+        ],
+        "currency_id": 124
+    },
+    {
+        "id": 201,
+        "name": "Sierra Leone",
+        "official_name": "Republic of Sierra Leone",
+        "iso_code": "SL",
+        "iso_code_3": "SLE",
+        "language_id": 7,
+        "available_languages": [
+            7
+        ],
+        "currency_id": 125
+    },
+    {
+        "id": 202,
+        "name": "El Salvador",
+        "official_name": "Republic of El Salvador",
+        "iso_code": "SV",
+        "iso_code_3": "SLV",
+        "language_id": 13,
+        "available_languages": [
+            13
+        ],
+        "currency_id": 10
+    },
+    {
+        "id": 203,
+        "name": "San Marino",
+        "official_name": "Most Serene Republic of San Marino",
+        "iso_code": "SM",
+        "iso_code_3": "SMR",
+        "language_id": 37,
+        "available_languages": [
+            37
+        ],
+        "currency_id": 5
+    },
+    {
+        "id": 204,
+        "name": "Somalia",
+        "official_name": "Federal Republic of Somalia",
+        "iso_code": "SO",
+        "iso_code_3": "SOM",
+        "language_id": 11,
+        "available_languages": [
+            11,
+            125
+        ],
+        "currency_id": 126
+    },
+    {
+        "id": 205,
+        "name": "Saint Pierre and Miquelon",
+        "official_name": "Saint Pierre and Miquelon",
+        "iso_code": "PM",
+        "iso_code_3": "SPM",
+        "language_id": 16,
+        "available_languages": [
+            16
+        ],
+        "currency_id": 5
+    },
+    {
+        "id": 206,
+        "name": "Serbia",
+        "official_name": "Republic of Serbia",
+        "iso_code": "RS",
+        "iso_code_3": "SRB",
+        "language_id": 26,
+        "available_languages": [
+            26
+        ],
+        "currency_id": 127
+    },
+    {
+        "id": 207,
+        "name": "South Sudan",
+        "official_name": "Republic of South Sudan",
+        "iso_code": "SS",
+        "iso_code_3": "SSD",
+        "language_id": 7,
+        "available_languages": [
+            7
+        ],
+        "currency_id": 128
+    },
+    {
+        "id": 208,
+        "name": "São Tomé and Príncipe",
+        "official_name": "Democratic Republic of São Tomé and Príncipe",
+        "iso_code": "ST",
+        "iso_code_3": "STP",
+        "language_id": 6,
+        "available_languages": [
+            6
+        ],
+        "currency_id": 129
+    },
+    {
+        "id": 209,
+        "name": "Suriname",
+        "official_name": "Republic of Suriname",
+        "iso_code": "SR",
+        "iso_code_3": "SUR",
+        "language_id": 1,
+        "available_languages": [
+            1
+        ],
+        "currency_id": 130
+    },
+    {
+        "id": 210,
+        "name": "Slovakia",
+        "official_name": "Slovak Republic",
+        "iso_code": "SK",
+        "iso_code_3": "SVK",
+        "language_id": 49,
+        "available_languages": [
+            49
+        ],
+        "currency_id": 5
+    },
+    {
+        "id": 211,
+        "name": "Slovenia",
+        "official_name": "Republic of Slovenia",
+        "iso_code": "SI",
+        "iso_code_3": "SVN",
+        "language_id": 126,
+        "available_languages": [
+            126
+        ],
+        "currency_id": 5
+    },
+    {
+        "id": 212,
+        "name": "Sweden",
+        "official_name": "Kingdom of Sweden",
+        "iso_code": "SE",
+        "iso_code_3": "SWE",
+        "language_id": 8,
+        "available_languages": [
+            8
+        ],
+        "currency_id": 131
+    },
+    {
+        "id": 213,
+        "name": "Eswatini",
+        "official_name": "Kingdom of Eswatini",
+        "iso_code": "SZ",
+        "iso_code_3": "SWZ",
+        "language_id": 7,
+        "available_languages": [
+            7,
+            127
+        ],
+        "currency_id": 132
+    },
+    {
+        "id": 214,
+        "name": "Sint Maarten",
+        "official_name": "Sint Maarten",
+        "iso_code": "SX",
+        "iso_code_3": "SXM",
+        "language_id": 7,
+        "available_languages": [
+            7,
+            16,
+            1
+        ],
+        "currency_id": 42
+    },
+    {
+        "id": 215,
+        "name": "Seychelles",
+        "official_name": "Republic of Seychelles",
+        "iso_code": "SC",
+        "iso_code_3": "SYC",
+        "language_id": 128,
+        "available_languages": [
+            128,
+            7,
+            16
+        ],
+        "currency_id": 133
+    },
+    {
+        "id": 216,
+        "name": "Syria",
+        "official_name": "Syrian Arab Republic",
+        "iso_code": "SY",
+        "iso_code_3": "SYR",
+        "language_id": 11,
+        "available_languages": [
+            11
+        ],
+        "currency_id": 134
+    },
+    {
+        "id": 217,
+        "name": "Turks and Caicos Islands",
+        "official_name": "Turks and Caicos Islands",
+        "iso_code": "TC",
+        "iso_code_3": "TCA",
+        "language_id": 7,
+        "available_languages": [
+            7
+        ],
+        "currency_id": 10
+    },
+    {
+        "id": 218,
+        "name": "Chad",
+        "official_name": "Republic of Chad",
+        "iso_code": "TD",
+        "iso_code_3": "TCD",
+        "language_id": 11,
+        "available_languages": [
+            11,
+            16
+        ],
+        "currency_id": 30
+    },
+    {
+        "id": 219,
+        "name": "Togo",
+        "official_name": "Togolese Republic",
+        "iso_code": "TG",
+        "iso_code_3": "TGO",
+        "language_id": 16,
+        "available_languages": [
+            16
+        ],
+        "currency_id": 14
+    },
+    {
+        "id": 220,
+        "name": "Thailand",
+        "official_name": "Kingdom of Thailand",
+        "iso_code": "TH",
+        "iso_code_3": "THA",
+        "language_id": 129,
+        "available_languages": [
+            129
+        ],
+        "currency_id": 135
+    },
+    {
+        "id": 221,
+        "name": "Tajikistan",
+        "official_name": "Republic of Tajikistan",
+        "iso_code": "TJ",
+        "iso_code_3": "TJK",
+        "language_id": 19,
+        "available_languages": [
+            19,
+            130
+        ],
+        "currency_id": 136
+    },
+    {
+        "id": 222,
+        "name": "Tokelau",
+        "official_name": "Tokelau",
+        "iso_code": "TK",
+        "iso_code_3": "TKL",
+        "language_id": 7,
+        "available_languages": [
+            7,
+            15,
+            131
+        ],
+        "currency_id": 104
+    },
+    {
+        "id": 223,
+        "name": "Turkmenistan",
+        "official_name": "Turkmenistan",
+        "iso_code": "TM",
+        "iso_code_3": "TKM",
+        "language_id": 19,
+        "available_languages": [
+            19,
+            5
+        ],
+        "currency_id": 137
+    },
+    {
+        "id": 224,
+        "name": "Timor-Leste",
+        "official_name": "Democratic Republic of Timor-Leste",
+        "iso_code": "TL",
+        "iso_code_3": "TLS",
+        "language_id": 6,
+        "available_languages": [
+            6,
+            132
+        ],
+        "currency_id": 10
+    },
+    {
+        "id": 225,
+        "name": "Tonga",
+        "official_name": "Kingdom of Tonga",
+        "iso_code": "TO",
+        "iso_code_3": "TON",
+        "language_id": 7,
+        "available_languages": [
+            7,
+            133
+        ],
+        "currency_id": 138
+    },
+    {
+        "id": 226,
+        "name": "Trinidad and Tobago",
+        "official_name": "Republic of Trinidad and Tobago",
+        "iso_code": "TT",
+        "iso_code_3": "TTO",
+        "language_id": 7,
+        "available_languages": [
+            7
+        ],
+        "currency_id": 139
+    },
+    {
+        "id": 227,
+        "name": "Tunisia",
+        "official_name": "Tunisian Republic",
+        "iso_code": "TN",
+        "iso_code_3": "TUN",
+        "language_id": 11,
+        "available_languages": [
+            11
+        ],
+        "currency_id": 140
+    },
+    {
+        "id": 228,
+        "name": "Türkiye",
+        "official_name": "Republic of Türkiye",
+        "iso_code": "TR",
+        "iso_code_3": "TUR",
+        "language_id": 47,
+        "available_languages": [
+            47
+        ],
+        "currency_id": 141
+    },
+    {
+        "id": 229,
+        "name": "Tuvalu",
+        "official_name": "Tuvalu",
+        "iso_code": "TV",
+        "iso_code_3": "TUV",
+        "language_id": 7,
+        "available_languages": [
+            7,
+            134
+        ],
+        "currency_id": 11
+    },
+    {
+        "id": 230,
+        "name": "Taiwan",
+        "official_name": "Republic of China (Taiwan)",
+        "iso_code": "TW",
+        "iso_code_3": "TWN",
+        "language_id": 39,
+        "available_languages": [
+            39
+        ],
+        "currency_id": 142
+    },
+    {
+        "id": 231,
+        "name": "Tanzania",
+        "official_name": "United Republic of Tanzania",
+        "iso_code": "TZ",
+        "iso_code_3": "TZA",
+        "language_id": 7,
+        "available_languages": [
+            7,
+            43
+        ],
+        "currency_id": 143
+    },
+    {
+        "id": 232,
+        "name": "Uganda",
+        "official_name": "Republic of Uganda",
+        "iso_code": "UG",
+        "iso_code_3": "UGA",
+        "language_id": 7,
+        "available_languages": [
+            7,
+            43
+        ],
+        "currency_id": 144
+    },
+    {
+        "id": 233,
+        "name": "Ukraine",
+        "official_name": "Ukraine",
+        "iso_code": "UA",
+        "iso_code_3": "UKR",
+        "language_id": 135,
+        "available_languages": [
+            135
+        ],
+        "currency_id": 145
+    },
+    {
+        "id": 234,
+        "name": "United States Minor Outlying Islands",
+        "official_name": "United States Minor Outlying Islands",
+        "iso_code": "UM",
+        "iso_code_3": "UMI",
+        "language_id": 7,
+        "available_languages": [
+            7
+        ],
+        "currency_id": 10
+    },
+    {
+        "id": 235,
+        "name": "Uruguay",
+        "official_name": "Oriental Republic of Uruguay",
+        "iso_code": "UY",
+        "iso_code_3": "URY",
+        "language_id": 13,
+        "available_languages": [
+            13
+        ],
+        "currency_id": 146
+    },
+    {
+        "id": 236,
+        "name": "United States",
+        "official_name": "United States of America",
+        "iso_code": "US",
+        "iso_code_3": "USA",
+        "language_id": 7,
+        "available_languages": [
+            7
+        ],
+        "currency_id": 10
+    },
+    {
+        "id": 237,
+        "name": "Uzbekistan",
+        "official_name": "Republic of Uzbekistan",
+        "iso_code": "UZ",
+        "iso_code_3": "UZB",
+        "language_id": 19,
+        "available_languages": [
+            19,
+            136
+        ],
+        "currency_id": 147
+    },
+    {
+        "id": 238,
+        "name": "Vatican City",
+        "official_name": "Vatican City State",
+        "iso_code": "VA",
+        "iso_code_3": "VAT",
+        "language_id": 37,
+        "available_languages": [
+            37,
+            137
+        ],
+        "currency_id": 5
+    },
+    {
+        "id": 239,
+        "name": "Saint Vincent and the Grenadines",
+        "official_name": "Saint Vincent and the Grenadines",
+        "iso_code": "VC",
+        "iso_code_3": "VCT",
+        "language_id": 7,
+        "available_languages": [
+            7
+        ],
+        "currency_id": 4
+    },
+    {
+        "id": 240,
+        "name": "Venezuela",
+        "official_name": "Bolivarian Republic of Venezuela",
+        "iso_code": "VE",
+        "iso_code_3": "VEN",
+        "language_id": 13,
+        "available_languages": [
+            13
+        ],
+        "currency_id": 148
+    },
+    {
+        "id": 241,
+        "name": "British Virgin Islands",
+        "official_name": "Virgin Islands",
+        "iso_code": "VG",
+        "iso_code_3": "VGB",
+        "language_id": 7,
+        "available_languages": [
+            7
+        ],
+        "currency_id": 10
+    },
+    {
+        "id": 242,
+        "name": "United States Virgin Islands",
+        "official_name": "Virgin Islands of the United States",
+        "iso_code": "VI",
+        "iso_code_3": "VIR",
+        "language_id": 7,
+        "available_languages": [
+            7
+        ],
+        "currency_id": 10
+    },
+    {
+        "id": 243,
+        "name": "Vietnam",
+        "official_name": "Socialist Republic of Vietnam",
+        "iso_code": "VN",
+        "iso_code_3": "VNM",
+        "language_id": 138,
+        "available_languages": [
+            138
+        ],
+        "currency_id": 149
+    },
+    {
+        "id": 244,
+        "name": "Vanuatu",
+        "official_name": "Republic of Vanuatu",
+        "iso_code": "VU",
+        "iso_code_3": "VUT",
+        "language_id": 139,
+        "available_languages": [
+            139,
+            7,
+            16
+        ],
+        "currency_id": 150
+    },
+    {
+        "id": 245,
+        "name": "Wallis and Futuna",
+        "official_name": "Territory of the Wallis and Futuna Islands",
+        "iso_code": "WF",
+        "iso_code_3": "WLF",
+        "language_id": 16,
+        "available_languages": [
+            16
+        ],
+        "currency_id": 101
+    },
+    {
+        "id": 246,
+        "name": "Samoa",
+        "official_name": "Independent State of Samoa",
+        "iso_code": "WS",
+        "iso_code_3": "WSM",
+        "language_id": 7,
+        "available_languages": [
+            7,
+            15
+        ],
+        "currency_id": 151
+    },
+    {
+        "id": 247,
+        "name": "Yemen",
+        "official_name": "Republic of Yemen",
+        "iso_code": "YE",
+        "iso_code_3": "YEM",
+        "language_id": 11,
+        "available_languages": [
+            11
+        ],
+        "currency_id": 152
+    },
+    {
+        "id": 248,
+        "name": "South Africa",
+        "official_name": "Republic of South Africa",
+        "iso_code": "ZA",
+        "iso_code_3": "ZAF",
+        "language_id": 103,
+        "available_languages": [
+            103,
+            7,
+            140,
+            141,
+            87,
+            127,
+            34,
+            142,
+            143,
+            144,
+            145
+        ],
+        "currency_id": 153
+    },
+    {
+        "id": 249,
+        "name": "Zambia",
+        "official_name": "Republic of Zambia",
+        "iso_code": "ZM",
+        "iso_code_3": "ZMB",
+        "language_id": 7,
+        "available_languages": [
+            7
+        ],
+        "currency_id": 154
+    },
+    {
+        "id": 250,
+        "name": "Zimbabwe",
+        "official_name": "Republic of Zimbabwe",
+        "iso_code": "ZW",
+        "iso_code_3": "ZWE",
+        "language_id": 146,
+        "available_languages": [
+            146,
+            7,
+            147,
+            148,
+            149,
+            150,
+            102,
+            151,
+            87,
+            152,
+            34,
+            142,
+            143,
+            144,
+            153
+        ],
+        "currency_id": 29
+    }
+]

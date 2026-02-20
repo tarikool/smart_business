@@ -1,0 +1,767 @@
+[
+  {
+    "id": 1,
+    "name": "Dutch",
+    "prefix": "nl"
+  },
+  {
+    "id": 2,
+    "name": "Papiamento",
+    "prefix": "pap"
+  },
+  {
+    "id": 3,
+    "name": "Dari",
+    "prefix": "prs"
+  },
+  {
+    "id": 4,
+    "name": "Pashto",
+    "prefix": "ps"
+  },
+  {
+    "id": 5,
+    "name": "Turkmen",
+    "prefix": "tk"
+  },
+  {
+    "id": 6,
+    "name": "Portuguese",
+    "prefix": "pt"
+  },
+  {
+    "id": 7,
+    "name": "English",
+    "prefix": "en"
+  },
+  {
+    "id": 8,
+    "name": "Swedish",
+    "prefix": "sv"
+  },
+  {
+    "id": 9,
+    "name": "Albanian",
+    "prefix": "sq"
+  },
+  {
+    "id": 10,
+    "name": "Catalan",
+    "prefix": "ca"
+  },
+  {
+    "id": 11,
+    "name": "Arabic",
+    "prefix": "ar"
+  },
+  {
+    "id": 12,
+    "name": "Guaraní",
+    "prefix": "gn"
+  },
+  {
+    "id": 13,
+    "name": "Spanish",
+    "prefix": "es"
+  },
+  {
+    "id": 14,
+    "name": "Armenian",
+    "prefix": "hy"
+  },
+  {
+    "id": 15,
+    "name": "Samoan",
+    "prefix": "sm"
+  },
+  {
+    "id": 16,
+    "name": "French",
+    "prefix": "fr"
+  },
+  {
+    "id": 17,
+    "name": "Austro-Bavarian German",
+    "prefix": "bar"
+  },
+  {
+    "id": 18,
+    "name": "Azerbaijani",
+    "prefix": "az"
+  },
+  {
+    "id": 19,
+    "name": "Russian",
+    "prefix": "ru"
+  },
+  {
+    "id": 20,
+    "name": "Kirundi",
+    "prefix": "rn"
+  },
+  {
+    "id": 21,
+    "name": "German",
+    "prefix": "de"
+  },
+  {
+    "id": 22,
+    "name": "Bengali",
+    "prefix": "bn"
+  },
+  {
+    "id": 23,
+    "name": "Bulgarian",
+    "prefix": "bg"
+  },
+  {
+    "id": 24,
+    "name": "Bosnian",
+    "prefix": "bs"
+  },
+  {
+    "id": 25,
+    "name": "Croatian",
+    "prefix": "hr"
+  },
+  {
+    "id": 26,
+    "name": "Serbian",
+    "prefix": "sr"
+  },
+  {
+    "id": 27,
+    "name": "Belarusian",
+    "prefix": "be"
+  },
+  {
+    "id": 28,
+    "name": "Belizean Creole",
+    "prefix": "bjz"
+  },
+  {
+    "id": 29,
+    "name": "Aymara",
+    "prefix": "ay"
+  },
+  {
+    "id": 30,
+    "name": "Quechua",
+    "prefix": "qu"
+  },
+  {
+    "id": 31,
+    "name": "Malay",
+    "prefix": "ms"
+  },
+  {
+    "id": 32,
+    "name": "Dzongkha",
+    "prefix": "dz"
+  },
+  {
+    "id": 33,
+    "name": "Norwegian",
+    "prefix": "no"
+  },
+  {
+    "id": 34,
+    "name": "Tswana",
+    "prefix": "tn"
+  },
+  {
+    "id": 35,
+    "name": "Sango",
+    "prefix": "sg"
+  },
+  {
+    "id": 36,
+    "name": "Swiss German",
+    "prefix": "gsw"
+  },
+  {
+    "id": 37,
+    "name": "Italian",
+    "prefix": "it"
+  },
+  {
+    "id": 38,
+    "name": "Romansh",
+    "prefix": "rm"
+  },
+  {
+    "id": 39,
+    "name": "Chinese",
+    "prefix": "zh"
+  },
+  {
+    "id": 40,
+    "name": "Kikongo",
+    "prefix": "kg"
+  },
+  {
+    "id": 41,
+    "name": "Lingala",
+    "prefix": "ln"
+  },
+  {
+    "id": 42,
+    "name": "Tshiluba",
+    "prefix": "lua"
+  },
+  {
+    "id": 43,
+    "name": "Swahili",
+    "prefix": "sw"
+  },
+  {
+    "id": 44,
+    "name": "Cook Islands Māori",
+    "prefix": "rar"
+  },
+  {
+    "id": 45,
+    "name": "Comorian",
+    "prefix": "zdj"
+  },
+  {
+    "id": 46,
+    "name": "Greek",
+    "prefix": "el"
+  },
+  {
+    "id": 47,
+    "name": "Turkish",
+    "prefix": "tr"
+  },
+  {
+    "id": 48,
+    "name": "Czech",
+    "prefix": "cs"
+  },
+  {
+    "id": 49,
+    "name": "Slovak",
+    "prefix": "sk"
+  },
+  {
+    "id": 50,
+    "name": "Danish",
+    "prefix": "da"
+  },
+  {
+    "id": 51,
+    "name": "Tigrinya",
+    "prefix": "ti"
+  },
+  {
+    "id": 52,
+    "name": "Berber",
+    "prefix": "ber"
+  },
+  {
+    "id": 53,
+    "name": "Hassaniya",
+    "prefix": "mey"
+  },
+  {
+    "id": 54,
+    "name": "Estonian",
+    "prefix": "et"
+  },
+  {
+    "id": 55,
+    "name": "Amharic",
+    "prefix": "am"
+  },
+  {
+    "id": 56,
+    "name": "Finnish",
+    "prefix": "fi"
+  },
+  {
+    "id": 57,
+    "name": "Fijian",
+    "prefix": "fj"
+  },
+  {
+    "id": 58,
+    "name": "Fiji Hindi",
+    "prefix": "hif"
+  },
+  {
+    "id": 59,
+    "name": "Faroese",
+    "prefix": "fo"
+  },
+  {
+    "id": 60,
+    "name": "Georgian",
+    "prefix": "ka"
+  },
+  {
+    "id": 61,
+    "name": "Guernésiais",
+    "prefix": "nfr"
+  },
+  {
+    "id": 62,
+    "name": "Upper Guinea Creole",
+    "prefix": "pov"
+  },
+  {
+    "id": 63,
+    "name": "Greenlandic",
+    "prefix": "kl"
+  },
+  {
+    "id": 64,
+    "name": "Chamorro",
+    "prefix": "ch"
+  },
+  {
+    "id": 65,
+    "name": "Haitian Creole",
+    "prefix": "ht"
+  },
+  {
+    "id": 66,
+    "name": "Hungarian",
+    "prefix": "hu"
+  },
+  {
+    "id": 67,
+    "name": "Indonesian",
+    "prefix": "id"
+  },
+  {
+    "id": 68,
+    "name": "Manx",
+    "prefix": "gv"
+  },
+  {
+    "id": 69,
+    "name": "Hindi",
+    "prefix": "hi"
+  },
+  {
+    "id": 70,
+    "name": "Tamil",
+    "prefix": "ta"
+  },
+  {
+    "id": 71,
+    "name": "Irish",
+    "prefix": "ga"
+  },
+  {
+    "id": 72,
+    "name": "Persian (Farsi)",
+    "prefix": "fa"
+  },
+  {
+    "id": 73,
+    "name": "Aramaic",
+    "prefix": "arc"
+  },
+  {
+    "id": 74,
+    "name": "Sorani",
+    "prefix": "ckb"
+  },
+  {
+    "id": 75,
+    "name": "Icelandic",
+    "prefix": "is"
+  },
+  {
+    "id": 76,
+    "name": "Hebrew",
+    "prefix": "he"
+  },
+  {
+    "id": 77,
+    "name": "Jamaican Patois",
+    "prefix": "jam"
+  },
+  {
+    "id": 78,
+    "name": "Jèrriais",
+    "prefix": "nrf"
+  },
+  {
+    "id": 79,
+    "name": "Japanese",
+    "prefix": "ja"
+  },
+  {
+    "id": 80,
+    "name": "Kazakh",
+    "prefix": "kk"
+  },
+  {
+    "id": 81,
+    "name": "Kyrgyz",
+    "prefix": "ky"
+  },
+  {
+    "id": 82,
+    "name": "Khmer",
+    "prefix": "km"
+  },
+  {
+    "id": 83,
+    "name": "Gilbertese",
+    "prefix": "gil"
+  },
+  {
+    "id": 84,
+    "name": "Korean",
+    "prefix": "ko"
+  },
+  {
+    "id": 85,
+    "name": "Lao",
+    "prefix": "lo"
+  },
+  {
+    "id": 86,
+    "name": "Sinhala",
+    "prefix": "si"
+  },
+  {
+    "id": 87,
+    "name": "Sotho",
+    "prefix": "st"
+  },
+  {
+    "id": 88,
+    "name": "Lithuanian",
+    "prefix": "lt"
+  },
+  {
+    "id": 89,
+    "name": "Luxembourgish",
+    "prefix": "lb"
+  },
+  {
+    "id": 90,
+    "name": "Latvian",
+    "prefix": "lv"
+  },
+  {
+    "id": 91,
+    "name": "Moldavian",
+    "prefix": "ro"
+  },
+  {
+    "id": 92,
+    "name": "Malagasy",
+    "prefix": "mg"
+  },
+  {
+    "id": 93,
+    "name": "Maldivian",
+    "prefix": "dv"
+  },
+  {
+    "id": 94,
+    "name": "Marshallese",
+    "prefix": "mh"
+  },
+  {
+    "id": 95,
+    "name": "Macedonian",
+    "prefix": "mk"
+  },
+  {
+    "id": 96,
+    "name": "Maltese",
+    "prefix": "mt"
+  },
+  {
+    "id": 97,
+    "name": "Burmese",
+    "prefix": "my"
+  },
+  {
+    "id": 98,
+    "name": "Montenegrin",
+    "prefix": "cnr"
+  },
+  {
+    "id": 99,
+    "name": "Mongolian",
+    "prefix": "mn"
+  },
+  {
+    "id": 100,
+    "name": "Carolinian",
+    "prefix": "cal"
+  },
+  {
+    "id": 101,
+    "name": "Mauritian Creole",
+    "prefix": "mfe"
+  },
+  {
+    "id": 102,
+    "name": "Chewa",
+    "prefix": "ny"
+  },
+  {
+    "id": 103,
+    "name": "Afrikaans",
+    "prefix": "af"
+  },
+  {
+    "id": 104,
+    "name": "Herero",
+    "prefix": "hz"
+  },
+  {
+    "id": 105,
+    "name": "Khoekhoe",
+    "prefix": "hgm"
+  },
+  {
+    "id": 106,
+    "name": "Kwangali",
+    "prefix": "kwn"
+  },
+  {
+    "id": 107,
+    "name": "Lozi",
+    "prefix": "loz"
+  },
+  {
+    "id": 108,
+    "name": "Ndonga",
+    "prefix": "ng"
+  },
+  {
+    "id": 109,
+    "name": "Norfuk",
+    "prefix": "pih"
+  },
+  {
+    "id": 110,
+    "name": "Niuean",
+    "prefix": "niu"
+  },
+  {
+    "id": 111,
+    "name": "Norwegian Nynorsk",
+    "prefix": "nn"
+  },
+  {
+    "id": 112,
+    "name": "Norwegian Bokmål",
+    "prefix": "nb"
+  },
+  {
+    "id": 113,
+    "name": "Sami",
+    "prefix": "smi"
+  },
+  {
+    "id": 114,
+    "name": "Nepali",
+    "prefix": "ne"
+  },
+  {
+    "id": 115,
+    "name": "Nauru",
+    "prefix": "na"
+  },
+  {
+    "id": 116,
+    "name": "Māori",
+    "prefix": "mi"
+  },
+  {
+    "id": 117,
+    "name": "New Zealand Sign Language",
+    "prefix": "nzs"
+  },
+  {
+    "id": 118,
+    "name": "Urdu",
+    "prefix": "ur"
+  },
+  {
+    "id": 119,
+    "name": "Filipino",
+    "prefix": "fil"
+  },
+  {
+    "id": 120,
+    "name": "Palauan",
+    "prefix": "pau"
+  },
+  {
+    "id": 121,
+    "name": "Hiri Motu",
+    "prefix": "ho"
+  },
+  {
+    "id": 122,
+    "name": "Tok Pisin",
+    "prefix": "tpi"
+  },
+  {
+    "id": 123,
+    "name": "Polish",
+    "prefix": "pl"
+  },
+  {
+    "id": 124,
+    "name": "Kinyarwanda",
+    "prefix": "rw"
+  },
+  {
+    "id": 125,
+    "name": "Somali",
+    "prefix": "so"
+  },
+  {
+    "id": 126,
+    "name": "Slovene",
+    "prefix": "sl"
+  },
+  {
+    "id": 127,
+    "name": "Swazi",
+    "prefix": "ss"
+  },
+  {
+    "id": 128,
+    "name": "Seychellois Creole",
+    "prefix": "crs"
+  },
+  {
+    "id": 129,
+    "name": "Thai",
+    "prefix": "th"
+  },
+  {
+    "id": 130,
+    "name": "Tajik",
+    "prefix": "tg"
+  },
+  {
+    "id": 131,
+    "name": "Tokelauan",
+    "prefix": "tkl"
+  },
+  {
+    "id": 132,
+    "name": "Tetum",
+    "prefix": "tet"
+  },
+  {
+    "id": 133,
+    "name": "Tongan",
+    "prefix": "to"
+  },
+  {
+    "id": 134,
+    "name": "Tuvaluan",
+    "prefix": "tvl"
+  },
+  {
+    "id": 135,
+    "name": "Ukrainian",
+    "prefix": "uk"
+  },
+  {
+    "id": 136,
+    "name": "Uzbek",
+    "prefix": "uz"
+  },
+  {
+    "id": 137,
+    "name": "Latin",
+    "prefix": "la"
+  },
+  {
+    "id": 138,
+    "name": "Vietnamese",
+    "prefix": "vi"
+  },
+  {
+    "id": 139,
+    "name": "Bislama",
+    "prefix": "bi"
+  },
+  {
+    "id": 140,
+    "name": "Southern Ndebele",
+    "prefix": "nr"
+  },
+  {
+    "id": 141,
+    "name": "Northern Sotho",
+    "prefix": "nso"
+  },
+  {
+    "id": 142,
+    "name": "Tsonga",
+    "prefix": "ts"
+  },
+  {
+    "id": 143,
+    "name": "Venda",
+    "prefix": "ve"
+  },
+  {
+    "id": 144,
+    "name": "Xhosa",
+    "prefix": "xh"
+  },
+  {
+    "id": 145,
+    "name": "Zulu",
+    "prefix": "zu"
+  },
+  {
+    "id": 146,
+    "name": "Chibarwe",
+    "prefix": "bwg"
+  },
+  {
+    "id": 147,
+    "name": "Kalanga",
+    "prefix": "kck"
+  },
+  {
+    "id": 148,
+    "name": "Khoisan",
+    "prefix": "khi"
+  },
+  {
+    "id": 149,
+    "name": "Ndau",
+    "prefix": "ndc"
+  },
+  {
+    "id": 150,
+    "name": "Northern Ndebele",
+    "prefix": "nd"
+  },
+  {
+    "id": 151,
+    "name": "Shona",
+    "prefix": "sn"
+  },
+  {
+    "id": 152,
+    "name": "Tonga",
+    "prefix": "toi"
+  },
+  {
+    "id": 153,
+    "name": "Zimbabwean Sign Language",
+    "prefix": "zib"
+  }
+]

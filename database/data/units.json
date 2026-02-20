@@ -1,0 +1,21 @@
+{
+    "base_units": [
+        {"name": "Piece", "symbol": "pc"},
+        {"name": "Kilogram", "symbol": "kg"},
+        {"name": "Gram", "symbol": "g"},
+        {"name": "Milligram", "symbol": "mg"},
+        {"name": "Liter", "symbol": "L"},
+        {"name": "Milliliter", "symbol": "mL"},
+        {"name": "Meter", "symbol": "m"},
+        {"name": "Centimeter", "symbol": "cm"},
+        {"name": "Inch", "symbol": "in"},
+        {"name": "Foot", "symbol": "ft"},
+        {"name": "Pack", "symbol": "pk"},
+        {"name": "Box", "symbol": "bx"},
+        {"name": "Dozen", "symbol": "dz"},
+        {"name": "Bottle", "symbol": "btl"},
+        {"name": "Carton", "symbol": "ctn"},
+        {"name": "Packet", "symbol": "pkt"}
+    ]
+}
+

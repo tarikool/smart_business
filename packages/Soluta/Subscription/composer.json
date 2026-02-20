@@ -1,0 +1,60 @@
+{
+    "name": "soluta/subscription",
+    "description": "A straightforward interface to handle subscriptions and features consumption.",
+    "keywords": [
+        "lucasdotvin",
+        "laravel",
+        "laravel-soulbscription",
+        "subscriptions"
+    ],
+    "homepage": "https://github.com/lucasdotvin/laravel-soulbscription",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lucas Vinicius",
+            "email": "lucasvinicius211@yahoo.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0|^8.1|^8.2",
+        "illuminate/contracts": "^8.0|^9.0|^10.0|^11.0|^12.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.22|^7.0|^8.0|^9.0|^10.0",
+        "phpunit/phpunit": "^9.5|^10.0|^11.5.3",
+        "squizlabs/php_codesniffer": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Soluta\\Subscription\\": "src",
+            "Soluta\\Subscription\\Database\\Factories\\": "database/factories"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "analyse": "vendor/bin/phpcs --standard=phpcs.xml",
+        "test": "vendor/bin/phpunit"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true,
+            "phpstan/extension-installer": false
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Soluta\\Subscription\\SubscriptionServiceProvider"
+            ],
+            "aliases": []
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

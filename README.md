@@ -1,59 +1,88 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+**Soluta** is a comprehensive business management system built with Laravel 12, featuring advanced inventory management, transaction processing, and subscription management capabilities.
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Core Features
 
-## About Laravel
+**Transaction Management**
+- Multiple transaction types: Purchase, Sale, Machinery Purchase/Sale/Rent, Production, Advisory
+- Real-time stock management with `StockService`
+- Return processing and stock adjustments
+- Payment method handling with `TransactionPayment` model
+- Due management and payment tracking
+- Transaction audit trail with `TransactionLog`
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+**Inventory System**
+- Product catalog with categories and units (`Product`, `ProductCategory`, `BaseUnit`)
+- Stock ledger tracking with `StockLedger`
+- Multi-unit support with `UnitOption` and conversions
+- Production capability for products
+- Recent price tracking with `ProductRecentPrice`
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+**Subscription Management** (NEW)
+- Custom subscription package: `soluta/subscription`
+- Plan management with billing cycles and grace periods
+- Subscription renewals and feature consumption
+- Stripe integration with webhook handling
+- License management system with `License`, `LicenseHistory`, `LicenseRequest`
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+**User Management**
+- Authentication with Laravel Sanctum
+- User profiles with social accounts
+- Contact management for business relationships
+- Customer summaries with `CustomerSummery`
+- Role-based access control with user types and statuses
 
-## Learning Laravel
+## Technical Architecture
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+**Backend Framework**: Laravel 12 with PHP 8.2+
+**Database**: PostgreSQL with comprehensive migrations
+**API**: RESTful API with middleware authentication
+**Package Management**: Custom subscription package with local path repository
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+**Key Models**
+- `Transaction`, `TransactionItem`, `TransactionPayment`, `TransactionLog` - Core transaction handling
+- `Product`, `ProductUser`, `StockLedger` - Inventory management
+- `Contact`, `CustomerSummery` - Business contact management
+- `License`, `LicenseHistory`, `LicenseRequest` - License management
+- [Subscription](cci:9://file:///home/mohiudin/Documents/tarikul/office/2026/soluta-v2/packages/Soluta/Subscription:0:0-0:0), `Plan` - Subscription management (from custom package)
 
-## Laravel Sponsors
+**Key Services**
+- `StockService` - Inventory management and stock calculations
+- `ReturnService` - Return transaction processing
+- `PaymentService` - Payment handling
+- `TransactionLogService` - Audit logging
+- `SubscriptionService` - Subscription management
+- Stripe webhook handling and payment initiation
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+**Key Enums**
+- `TxnType`, `PaymentMethod`, `PaymentStatus` - Transaction types and payment
+- `StockEntryType`, `StockStatus` - Inventory management
+- `ContactType`, `UserType`, `UserStatus` - User management
+- `GatewayType`, `OtpPurpose` - System utilities
 
-### Premium Partners
+## Recent Development
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+Currently implementing:
+- **Subscription System**: Complete subscription management with custom package
+- **License Management**: User licensing with history tracking
+- **Stripe Integration**: Payment processing and webhook handling
+- **Enhanced Transaction Logging**: Comprehensive audit trails
+- **Customer Summaries**: Business intelligence features
+- **Multi-currency Support**: Currency exchange rates and international transactions
 
-## Contributing
+## Development Environment
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+**Dependencies**:
+- Laravel 12.0 with PHP 8.2+
+- Laravel Horizon for queue management
+- Laravel Telescope for debugging
+- Laravel Sanctum for API authentication
+- Stripe PHP SDK for payments
+- Google API Client integration
 
-## Code of Conduct
+**Development Tools**:
+- Pest for testing
+- Laravel Pint for code formatting
+- Docker support with multi-service setup
+- Concurrent development server setup
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The project follows Laravel best practices with proper separation of concerns, enum-based type safety, comprehensive database relationships, and a modular architecture with custom packages for specialized functionality.

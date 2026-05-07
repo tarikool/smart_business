@@ -1,11 +1,12 @@
 <?php
 
-namespace Soluta\Subscription\Services\Stripe\Action;
+namespace Soluta\Subscription\Services\Payment\Stripe\Action;
 
 use App\Enums\PaymentStatus;
 use App\Traits\Makeable;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Log;
 use Soluta\Subscription\Models\Payment;
 use Soluta\Subscription\Models\StripeProcessedEvent;
 use Soluta\Subscription\Services\SubscriptionService;
@@ -32,6 +33,8 @@ class HandleWebhook
         $sigHeader = $request->header('STRIPE-SIGNATURE');
         $event = Webhook::constructEvent($payload, $sigHeader, $this->endpointSecret);
 
+        Log::info($event->type, ['event' => $event->id]);
+
         DB::transaction(function () use ($event) {
             StripeProcessedEvent::create([
                 'event_id' => $event->id,
@@ -53,9 +56,13 @@ class HandleWebhook
      */
     public function handleSuccess($status, $paymentIntent)
     {
-        $payment = Payment::find($paymentIntent->metadata->payment_id);
+        $payment = Payment::find($paymentIntent->metadata?->payment_id);
 
-        abort_if(! $payment, 404, 'Payment not found');
+        if (! $payment) {
+            Log::warning('Unrecognized payment_intent.succeeded', ['payment_intent' => $paymentIntent]);
+
+            return;
+        }
         abort_if($payment->isCompleted(), 400, 'Payment already processed');
         abort_if($payment->gateway_txn_id !== $paymentIntent->id, 400, 'Payment ID mismatch');
 
@@ -76,7 +83,13 @@ class HandleWebhook
      */
     public function handleFailed($status, $paymentIntent)
     {
-        $payment = Payment::find($paymentIntent->metadata->payment_id);
+        $payment = Payment::find($paymentIntent->metadata?->payment_id);
+
+        if (! $payment) {
+            Log::warning('Unrecognized payment_intent.payment_failed', ['payment_intent' => $paymentIntent]);
+
+            return;
+        }
 
         if (! $payment->isCompleted()) {
             $payment->update([

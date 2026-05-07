@@ -1,10 +1,10 @@
 <?php
 
-namespace Soluta\Subscription\Services\Stripe;
+namespace Soluta\Subscription\Services\Payment\Stripe;
 
 use Soluta\Subscription\Contracts\PaymentGateway;
-use Soluta\Subscription\Services\Stripe\Action\HandleWebhook;
-use Soluta\Subscription\Services\Stripe\Action\InitiatePayment;
+use Soluta\Subscription\Services\Payment\Stripe\Action\HandleWebhook;
+use Soluta\Subscription\Services\Payment\Stripe\Action\InitiatePayment;
 
 class StripeGateway implements PaymentGateway
 {

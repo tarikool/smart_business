@@ -24,12 +24,30 @@
 - Stripe integration with webhook handling
 - License management system with `License`, `LicenseHistory`, `LicenseRequest`
 
+**Payment Service**
+- Flexible payment processing with multiple gateway support
+- Country-based payment gateway routing:
+    - Automatic gateway selection based on user country ISO code
+    - Factory pattern for gateway instantiation via [PaymentGatewayFactory]
+    - Currently supports Stripe (global) and Bkash (Bangladesh)
+    - Extensible architecture - add new gateways by implementing [PaymentGateway] interface
+
+**Notification Service**
+- Multi-channel notification system with OTP generation and delivery
+- Channel-based routing: SMS and Email support via factory pattern
+- Country-based SMS gateway routing:
+    - Automatic country detection from phone number using `propaganistas/laravel-phone`
+    - Factory pattern for SMS provider selection for different country via [SMSFactory]
+    - Currently supports Bangladesh (BD) via SSL Wireless gateway
+- Purpose-based message templates (Signup, Forgot Password, Email Update)
+
 **User Management**
 - Authentication with Laravel Sanctum
 - User profiles with social accounts
 - Contact management for business relationships
 - Customer summaries with `CustomerSummery`
 - Role-based access control with user types and statuses
+
 
 ## Technical Architecture
 
@@ -58,16 +76,6 @@
 - `StockEntryType`, `StockStatus` - Inventory management
 - `ContactType`, `UserType`, `UserStatus` - User management
 - `GatewayType`, `OtpPurpose` - System utilities
-
-## Recent Development
-
-Currently implementing:
-- **Subscription System**: Complete subscription management with custom package
-- **License Management**: User licensing with history tracking
-- **Stripe Integration**: Payment processing and webhook handling
-- **Enhanced Transaction Logging**: Comprehensive audit trails
-- **Customer Summaries**: Business intelligence features
-- **Multi-currency Support**: Currency exchange rates and international transactions
 
 ## Development Environment
 

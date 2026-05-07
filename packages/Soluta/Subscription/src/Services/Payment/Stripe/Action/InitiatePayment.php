@@ -1,21 +1,19 @@
 <?php
 
-namespace Soluta\Subscription\Services\Stripe\Action;
+namespace Soluta\Subscription\Services\Payment\Stripe\Action;
 
-use App\Enums\Currency;
-use App\Enums\GatewayType;
-use App\Enums\PaymentStatus;
+use App\Enums\CurrencyEnum;
+use App\Enums\PaymentGatewayEnum;
 use App\Models\User;
 use App\Traits\Makeable;
-use Soluta\Subscription\Models\Payment;
-use Soluta\Subscription\Models\PaymentGateway;
 use Soluta\Subscription\Models\Plan;
+use Soluta\Subscription\Services\Payment\BaseInitiatePayment;
 use Stripe\Customer;
 use Stripe\Exception\ApiErrorException;
 use Stripe\Exception\InvalidArgumentException;
 use Stripe\StripeClient;
 
-class InitiatePayment
+class InitiatePayment extends BaseInitiatePayment
 {
     use Makeable;
 
@@ -24,6 +22,11 @@ class InitiatePayment
     public function __construct(public $secret)
     {
         $this->stripe = new StripeClient($this->secret);
+    }
+
+    protected function getAmount(Plan $plan): float
+    {
+        return round($plan->price * 100);
     }
 
     /**
@@ -37,10 +40,11 @@ class InitiatePayment
     public function execute($planId, $user)
     {
         $plan = Plan::find($planId);
-        $customer = $this->getOrCreateCustomer($user);
-        $payment = $this->saveLocalRecord($user, $plan);
-        $amount = round($payment->amount * 100);
+        $amount = $this->getAmount($plan);
+        $payment = $this->savePaymentLog($user, $plan, $amount * 0.01);
+        abort_unless($amount > 0, 422, 'Amount must be greater than 0.');
 
+        $customer = $this->getOrCreateCustomer($user);
         $ephemeralKey = $this->stripe->ephemeralKeys->create(
             ['customer' => $customer->id],
             ['stripe_version' => config('services.stripe.version')]
@@ -48,7 +52,7 @@ class InitiatePayment
 
         $paymentIntent = $this->stripe->paymentIntents->create([
             'amount' => $amount,
-            'currency' => Currency::USD->value,
+            'currency' => CurrencyEnum::USD->value,
             'customer' => $customer->id,
             'automatic_payment_methods' => ['enabled' => true, 'allow_redirects' => 'never'],
             'setup_future_usage' => 'on_session',
@@ -63,21 +67,8 @@ class InitiatePayment
             'customer' => $customer->id,
             'publishableKey' => config('services.stripe.key'),
             'id' => $paymentIntent->id,
+            'amount' => $payment->amount,
         ];
-    }
-
-    public function saveLocalRecord($user, $plan)
-    {
-        $gateway = PaymentGateway::whereName(GatewayType::STRIPE)->first();
-
-        return Payment::create([
-            'user_id' => $user->id,
-            'amount' => $plan->price,
-            'currency' => Currency::USD,
-            'plan_id' => $plan->id,
-            'gateway_id' => $gateway?->id,
-            'status' => PaymentStatus::PENDING,
-        ]);
     }
 
     /**
@@ -117,5 +108,15 @@ class InitiatePayment
         $user->update(['stripe_customer_id' => $customer->id]);
 
         return $customer;
+    }
+
+    protected function getGatewayIdentifier(): PaymentGatewayEnum
+    {
+        return PaymentGatewayEnum::STRIPE;
+    }
+
+    protected function getDefaultCurrency(): CurrencyEnum
+    {
+        return CurrencyEnum::USD;
     }
 }
